@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "name": "EASY WAVES",
+    "mode": "easy",
+    "max_wave": 20
+  },
+  "enemy_traits": {
+    "Normal": [],
+    "Speedy": [],
+    "Slow": [],
+    "Hidden": ["hidden"],
+    "Breaker2": [],
+    "Breaker3": [],
+    "Armored": ["lead"],
+    "Enraged": [],
+    "Normal Boss": ["boss"],
+    "Slow Boss": ["boss"],
+    "Necromancer": ["boss"],
+    "Brute": ["boss"]
+  },
+  "waves": {
+    "1": {
+      "enemies": [
+        { "type": "Normal", "count": 4 }
+      ]
+    },
+    "2": {
+      "enemies": [
+        { "type": "Normal", "count": 4 },
+        { "type": "Speedy", "count": 2 }
+      ]
+    },
+    "3": {
+      "enemies": [
+        { "type": "Speedy", "count": 4 },
+        { "type": "Normal", "count": 10 }
+      ]
+    },
+    "4": {
+      "enemies": [
+        { "type": "Speedy", "count": 4 },
+        { "type": "Normal", "count": 6 },
+        { "type": "Slow", "count": 3 }
+      ]
+    },
+    "5": {
+      "enemies": [
+        { "type": "Normal", "count": 5 },
+        { "type": "Slow", "count": 6 }
+      ]
+    },
+    "6": {
+      "enemies": [
+        { "type": "Slow", "count": 4 },
+        { "type": "Speedy", "count": 8 },
+        { "type": "Normal Boss", "count": 1, "modifiers": ["Boss"] }
+      ]
+    },
+    "7": {
+      "enemies": [
+        { "type": "Slow", "count": 3 },
+        { "type": "Speedy", "count": 8, "modifiers": ["Bloated"] },
+        { "type": "Slow", "count": 3 },
+        { "type": "Normal Boss", "count": 1 }
+      ]
+    },
+    "8": {
+      "enemies": [
+        { "type": "Normal", "count": 10 },
+        { "type": "Slow", "count": 8 },
+        { "type": "Hidden", "count": 5 }
+      ]
+    },
+    "9": {
+      "enemies": [
+        { "type": "Normal Boss", "count": 1 },
+        { "type": "Hidden", "count": 7 },
+        { "type": "Speedy", "count": 5, "modifiers": ["Bloated"] },
+        { "type": "Normal Boss", "count": 1 }
+      ]
+    },
+    "10": {
+      "enemies": [
+        { "type": "Slow", "count": 6, "modifiers": ["Bloated"] },
+        { "type": "Speedy", "count": 7, "modifiers": ["Bloated"] },
+        { "type": "Breaker2", "count": 5 }
+      ]
+    },
+    "11": {
+      "enemies": [
+        { "type": "Breaker2", "count": 5 },
+        { "type": "Hidden", "count": 5 },
+        { "type": "Normal Boss", "count": 1 },
+        { "type": "Hidden", "count": 5 },
+        { "type": "Breaker2", "count": 5 }
+      ]
+    },
+    "12": {
+      "enemies": [
+        { "type": "Slow", "count": 5 },
+        { "type": "Breaker2", "count": 10 },
+        { "type": "Hidden", "count": 7, "modifiers": ["Bloated"] },
+        { "type": "Breaker2", "count": 3 },
+        { "type": "Necromancer", "count": 1, "modifiers": ["Boss"] }
+      ]
+    },
+    "13": {
+      "enemies": [
+        { "type": "Breaker2", "count": 4 },
+        { "type": "Armored", "count": 6 },
+        { "type": "Breaker2", "count": 4 }
+      ]
+    },
+    "14": {
+      "enemies": [
+        { "type": "Breaker2", "count": 4 },
+        { "type": "Armored", "count": 6 },
+        { "type": "Hidden", "count": 7, "modifiers": ["Bloated"] },
+        { "type": "Breaker2", "count": 6 },
+        { "type": "Armored", "count": 6 },
+        { "type": "Normal Boss", "count": 2, "modifiers": ["Bloated"] }
+      ]
+    },
+    "15": {
+      "enemies": [
+        { "type": "Normal Boss", "count": 1, "modifiers": ["Bloated"] },
+        { "type": "Breaker2", "count": 8 },
+        { "type": "Armored", "count": 10 },
+        { "type": "Normal Boss", "count": 2 },
+        { "type": "Necromancer", "count": 2 }
+      ]
+    },
+    "16": {
+      "enemies": [
+        { "type": "Breaker2", "count": 6 },
+        { "type": "Hidden", "count": 4, "modifiers": ["Bloated"] },
+        { "type": "Armored", "count": 6 },
+        { "type": "Slow Boss", "count": 1, "modifiers": ["Boss"] }
+      ]
+    },
+    "17": {
+      "enemies": [
+        { "type": "Slow", "count": 10, "modifiers": ["Bloated", "Nimble"] },
+        { "type": "Enraged", "count": 4 },
+        { "type": "Breaker2", "count": 6 },
+        { "type": "Enraged", "count": 6 }
+      ]
+    },
+    "18": {
+      "enemies": [
+        { "type": "Breaker2", "count": 4 },
+        { "type": "Armored", "count": 6 },
+        { "type": "Necromancer", "count": 1 },
+        { "type": "Armored", "count": 6 },
+        { "type": "Enraged", "count": 6 },
+        { "type": "Necromancer", "count": 1 },
+        { "type": "Breaker2", "count": 4 }
+      ]
+    },
+    "19": {
+      "enemies": [
+        { "type": "Enraged", "count": 7 },
+        { "type": "Breaker2", "count": 7 },
+        { "type": "Normal Boss", "count": 1, "modifiers": ["Bloated"] },
+        { "type": "Slow Boss", "count": 1 },
+        { "type": "Breaker2", "count": 8, "modifiers": ["Bloated"] },
+        { "type": "Breaker3", "count": 3 }
+      ]
+    },
+    "20": {
+      "enemies": [
+        { "type": "Breaker3", "count": 4 },
+        { "type": "Breaker2", "count": 8, "modifiers": ["Bloated"] },
+        { "type": "Armored", "count": 5, "modifiers": ["Bloated"] },
+        { "type": "Normal Boss", "count": 3, "modifiers": ["Bloated"] },
+        { "type": "Enraged", "count": 5 },
+        { "type": "Brute", "count": 1, "modifiers": ["Boss"] },
+        { "type": "Normal Boss", "count": 3, "modifiers": ["Bloated"] }
+      ]
+    }
+  }
+}
