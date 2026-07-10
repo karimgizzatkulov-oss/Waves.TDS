@@ -1,0 +1,956 @@
+{
+  "meta": {
+    "name": "MOLTEN",
+    "mode": "molten",
+    "max_wave": 35,
+    "source": "https://tds.fandom.com/wiki/Molten_Mode/Waves",
+    "version": "28 January 2026 – Present"
+  },
+  "enemy_traits": {
+    "Abnormal": [],
+    "Quick": [],
+    "Heavy": [],
+    "Hidden": [
+      "hidden"
+    ],
+    "Elite Abnormal": [
+      "boss"
+    ],
+    "Molten": [],
+    "Molten Demon": [],
+    "Breaker2": [],
+    "Breaker3": [],
+    "Breaker4": [],
+    "Molten Golem": [
+      "boss"
+    ],
+    "Hazmat": [],
+    "Elite Hazmat": [],
+    "Hidden Boss": [
+      "boss",
+      "hidden"
+    ],
+    "Molten Necromancer": [],
+    "Elite Boomer": [],
+    "Boomer": [],
+    "Molten Hound": [],
+    "Molten Mech": [],
+    "Bulwark": [
+      "boss"
+    ],
+    "Elite Molten": [],
+    "Molten Executioner": [
+      "boss"
+    ],
+    "Tanker": [],
+    "Molten Summoner": [
+      "boss"
+    ],
+    "Molten Titan": [],
+    "Molten Warlord": [
+      "boss"
+    ]
+  },
+  "waves": {
+    "1": {
+      "enemies": [
+        {
+          "type": "Abnormal",
+          "count": 4
+        }
+      ]
+    },
+    "2": {
+      "enemies": [
+        {
+          "type": "Quick",
+          "count": 3
+        },
+        {
+          "type": "Abnormal",
+          "count": 5
+        }
+      ]
+    },
+    "3": {
+      "enemies": [
+        {
+          "type": "Abnormal",
+          "count": 3
+        },
+        {
+          "type": "Quick",
+          "count": 5
+        },
+        {
+          "type": "Abnormal",
+          "count": 3
+        }
+      ]
+    },
+    "4": {
+      "enemies": [
+        {
+          "type": "Quick",
+          "count": 12
+        }
+      ]
+    },
+    "5": {
+      "enemies": [
+        {
+          "type": "Heavy",
+          "count": 4
+        }
+      ]
+    },
+    "6": {
+      "enemies": [
+        {
+          "type": "Heavy",
+          "count": 3
+        },
+        {
+          "type": "Quick",
+          "count": 5
+        },
+        {
+          "type": "Heavy",
+          "count": 3
+        },
+        {
+          "type": "Quick",
+          "count": 5
+        }
+      ]
+    },
+    "7": {
+      "enemies": [
+        {
+          "type": "Abnormal",
+          "count": 5
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Abnormal",
+          "count": 7
+        }
+      ]
+    },
+    "8": {
+      "enemies": [
+        {
+          "type": "Heavy",
+          "count": 9
+        }
+      ]
+    },
+    "9": {
+      "enemies": [
+        {
+          "type": "Molten",
+          "count": 3
+        },
+        {
+          "type": "Heavy",
+          "count": 5
+        },
+        {
+          "type": "Abnormal",
+          "count": 6,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Quick",
+          "count": 6,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "enemies": [
+        {
+          "type": "Heavy",
+          "count": 5,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 1
+        },
+        {
+          "type": "Abnormal",
+          "count": 9,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "11": {
+      "enemies": [
+        {
+          "type": "Heavy",
+          "count": 6
+        },
+        {
+          "type": "Molten Demon",
+          "count": 2
+        },
+        {
+          "type": "Quick",
+          "count": 8,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "12": {
+      "enemies": [
+        {
+          "type": "Molten",
+          "count": 3
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 1
+        },
+        {
+          "type": "Heavy",
+          "count": 6
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 1
+        }
+      ]
+    },
+    "13": {
+      "enemies": [
+        {
+          "type": "Elite Abnormal",
+          "count": 1
+        },
+        {
+          "type": "Molten Demon",
+          "count": 2
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Molten Demon",
+          "count": 2
+        }
+      ]
+    },
+    "14": {
+      "enemies": [
+        {
+          "type": "Breaker3",
+          "count": 3
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 1
+        },
+        {
+          "type": "Heavy",
+          "count": 10
+        }
+      ]
+    },
+    "15": {
+      "enemies": [
+        {
+          "type": "Molten",
+          "count": 5
+        },
+        {
+          "type": "Molten Demon",
+          "count": 3
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 2
+        }
+      ]
+    },
+    "16": {
+      "enemies": [
+        {
+          "type": "Molten",
+          "count": 4,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Molten Golem",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 2
+        }
+      ]
+    },
+    "17": {
+      "enemies": [
+        {
+          "type": "Elite Hazmat",
+          "count": 3
+        },
+        {
+          "type": "Molten Demon",
+          "count": 2
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 3
+        },
+        {
+          "type": "Molten Demon",
+          "count": 2
+        }
+      ]
+    },
+    "18": {
+      "enemies": [
+        {
+          "type": "Molten",
+          "count": 8
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Molten Demon",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Hidden Boss",
+          "count": 1
+        },
+        {
+          "type": "Breaker3",
+          "count": 5
+        }
+      ]
+    },
+    "19": {
+      "enemies": [
+        {
+          "type": "Molten Demon",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Hidden Boss",
+          "count": 1
+        },
+        {
+          "type": "Breaker3",
+          "count": 5
+        },
+        {
+          "type": "Hidden Boss",
+          "count": 1
+        },
+        {
+          "type": "Molten Demon",
+          "count": 3
+        }
+      ]
+    },
+    "20": {
+      "enemies": [
+        {
+          "type": "Molten",
+          "count": 8
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Molten Demon",
+          "count": 4,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Heavy",
+          "count": 6
+        }
+      ]
+    },
+    "21": {
+      "enemies": [
+        {
+          "type": "Molten Golem",
+          "count": 1
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 5
+        },
+        {
+          "type": "Elite Boomer",
+          "count": 1
+        },
+        {
+          "type": "Breaker3",
+          "count": 5
+        }
+      ]
+    },
+    "22": {
+      "enemies": [
+        {
+          "type": "Molten Demon",
+          "count": 3,
+          "modifiers": [
+            "Nimble",
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 5
+        },
+        {
+          "type": "Molten Hound",
+          "count": 4
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "23": {
+      "enemies": [
+        {
+          "type": "Molten",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Hidden Boss",
+          "count": 1
+        },
+        {
+          "type": "Molten Demon",
+          "count": 4
+        },
+        {
+          "type": "Molten Mech",
+          "count": 1
+        },
+        {
+          "type": "Molten Hound",
+          "count": 4
+        }
+      ]
+    },
+    "24": {
+      "enemies": [
+        {
+          "type": "Hidden Boss",
+          "count": 1
+        },
+        {
+          "type": "Molten Demon",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Hidden Boss",
+          "count": 2
+        },
+        {
+          "type": "Molten Golem",
+          "count": 1,
+          "modifiers": [
+            "Nimble",
+            "Hidden",
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Hidden"
+          ]
+        }
+      ]
+    },
+    "25": {
+      "enemies": [
+        {
+          "type": "Molten",
+          "count": 8,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Bulwark",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Boss"
+          ]
+        },
+        {
+          "type": "Molten Demon",
+          "count": 4,
+          "modifiers": [
+            "Bloated",
+            "Nimble",
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Breaker3",
+          "count": 8
+        },
+        {
+          "type": "Elite Boomer",
+          "count": 1
+        },
+        {
+          "type": "Hidden Boss",
+          "count": 1,
+          "modifiers": [
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 1
+        }
+      ]
+    },
+    "26": {
+      "enemies": [
+        {
+          "type": "Molten Golem",
+          "count": 2
+        },
+        {
+          "type": "Breaker3",
+          "count": 6
+        },
+        {
+          "type": "Molten Golem",
+          "count": 2
+        },
+        {
+          "type": "Molten Hound",
+          "count": 6
+        },
+        {
+          "type": "Breaker4",
+          "count": 6
+        },
+        {
+          "type": "Molten Mech",
+          "count": 1
+        }
+      ]
+    },
+    "27": {
+      "enemies": [
+        {
+          "type": "Elite Boomer",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Molten",
+          "count": 8,
+          "modifiers": [
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Elite Boomer",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 10,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "28": {
+      "enemies": [
+        {
+          "type": "Elite Molten",
+          "count": 4,
+          "modifiers": [
+            "Nimble",
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Molten Mech",
+          "count": 1
+        },
+        {
+          "type": "Hidden Boss",
+          "count": 5
+        },
+        {
+          "type": "Molten Mech",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Molten Hound",
+          "count": 5
+        },
+        {
+          "type": "Molten Mech",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "29": {
+      "enemies": [
+        {
+          "type": "Molten Golem",
+          "count": 5
+        },
+        {
+          "type": "Molten Mech",
+          "count": 2,
+          "modifiers": [
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Elite Boomer",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Elite Molten",
+          "count": 8
+        },
+        {
+          "type": "Breaker4",
+          "count": 6
+        }
+      ]
+    },
+    "30": {
+      "enemies": [
+        {
+          "type": "Molten Executioner",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Molten Golem",
+          "count": 3
+        },
+        {
+          "type": "Bulwark",
+          "count": 2,
+          "modifiers": [
+            "Nimble",
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Elite Molten",
+          "count": 3,
+          "modifiers": [
+            "Corpse"
+          ]
+        }
+      ]
+    },
+    "31": {
+      "enemies": [
+        {
+          "type": "Hidden Boss",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Molten Mech",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Boomer",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Molten Hound",
+          "count": 4
+        },
+        {
+          "type": "Tanker",
+          "count": 2
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 8
+        },
+        {
+          "type": "Breaker4",
+          "count": 5
+        },
+        {
+          "type": "Bulwark",
+          "count": 3
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 5
+        }
+      ]
+    },
+    "32": {
+      "enemies": [
+        {
+          "type": "Tanker",
+          "count": 1
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Molten Summoner",
+          "count": 1,
+          "modifiers": [
+            "Boss",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Bulwark",
+          "count": 3
+        },
+        {
+          "type": "Molten Hound",
+          "count": 15
+        }
+      ]
+    },
+    "33": {
+      "enemies": [
+        {
+          "type": "Hidden Boss",
+          "count": 6,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Breaker4",
+          "count": 8
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Molten Summoner",
+          "count": 1
+        },
+        {
+          "type": "Bulwark",
+          "count": 4
+        },
+        {
+          "type": "Elite Molten",
+          "count": 8
+        },
+        {
+          "type": "Molten Necromancer",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Molten Summoner",
+          "count": 1
+        },
+        {
+          "type": "Bulwark",
+          "count": 4
+        }
+      ]
+    },
+    "34": {
+      "enemies": [
+        {
+          "type": "Tanker",
+          "count": 1
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 6,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Tanker",
+          "count": 1
+        },
+        {
+          "type": "Molten Executioner",
+          "count": 1,
+          "modifiers": [
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Elite Molten",
+          "count": 8
+        },
+        {
+          "type": "Molten Titan",
+          "count": 4
+        },
+        {
+          "type": "Molten Summoner",
+          "count": 1,
+          "modifiers": [
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Bulwark",
+          "count": 5
+        }
+      ]
+    },
+    "35": {
+      "enemies": [
+        {
+          "type": "Molten Titan",
+          "count": 3
+        },
+        {
+          "type": "Molten Executioner",
+          "count": 1
+        },
+        {
+          "type": "Molten Warlord",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Tanker",
+          "count": 1
+        },
+        {
+          "type": "Elite Molten",
+          "count": 6,
+          "modifiers": [
+            "Nimble",
+            "Corpse"
+          ]
+        },
+        {
+          "type": "Bulwark",
+          "count": 3
+        }
+      ]
+    }
+  }
+}

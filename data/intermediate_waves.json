@@ -4,54 +4,55 @@
     "mode": "intermediate",
     "max_wave": 30,
     "source": "https://tds.fandom.com/wiki/Intermediate_Mode/Waves",
-    "version": "11 December 2024 – Present"
+    "version": "28 January 2026 – Present"
   },
   "enemy_traits": {
-    "Armored": [
-      "lead"
-    ],
-    "Breaker2": [
-      "hidden"
-    ],
-    "Breaker4": [],
-    "Enraged": [
-      "hidden"
-    ],
-    "Failed Experiment": [
-      "boss"
-    ],
-    "Ghoul": [
-      "boss"
-    ],
-    "Hazmat": [
-      "hidden"
-    ],
+    "Normal": [],
+    "Speedy": [],
+    "Slow": [],
+    "Abnormal": [],
+    "Quick": [],
+    "Heavy": [],
     "Hidden": [
       "hidden"
+    ],
+    "Bolt": [],
+    "Boomer": [],
+    "Slime": [],
+    "Breaker2": [],
+    "Breaker4": [],
+    "Hazmat": [],
+    "Elite Hazmat": [],
+    "Reaver": [
+      "lead"
+    ],
+    "Ghoul": [
+      "hidden",
+      "boss"
+    ],
+    "Elite Abnormal": [
+      "boss"
+    ],
+    "Normal Boss": [
+      "boss"
+    ],
+    "Speedy Boss": [
+      "boss"
     ],
     "Hidden Boss": [
       "boss",
       "hidden"
     ],
+    "Giant Boss": [
+      "boss"
+    ],
     "Living Experiment": [
       "boss"
     ],
-    "Necromancer": [
+    "Failed Experiment": [
       "boss"
     ],
-    "Normal": [],
     "Patient Zero": [
-      "boss"
-    ],
-    "Reaver": [
-      "lead"
-    ],
-    "Slime": [
-      "hidden"
-    ],
-    "Slow": [],
-    "Speedy": [],
-    "Speedy Boss": [
       "boss"
     ]
   },
@@ -67,40 +68,36 @@
     "2": {
       "enemies": [
         {
-          "type": "Speedy",
-          "count": 1
-        },
-        {
           "type": "Normal",
-          "count": 6
+          "count": 7
         }
       ]
     },
     "3": {
       "enemies": [
         {
-          "type": "Speedy",
-          "count": 2
-        },
-        {
           "type": "Normal",
           "count": 6
         },
         {
           "type": "Speedy",
-          "count": 2
+          "count": 3
         }
       ]
     },
     "4": {
       "enemies": [
         {
-          "type": "Slow",
+          "type": "Normal",
           "count": 4
         },
         {
-          "type": "Normal",
-          "count": 8
+          "type": "Speedy",
+          "count": 5
+        },
+        {
+          "type": "Slow",
+          "count": 4
         }
       ]
     },
@@ -108,27 +105,34 @@
       "enemies": [
         {
           "type": "Slow",
-          "count": 4
+          "count": 6
+        },
+        {
+          "type": "Speedy",
+          "count": 6
         },
         {
           "type": "Normal",
-          "count": 10
-        },
-        {
-          "type": "Slow",
-          "count": 4
+          "count": 6
         }
       ]
     },
     "6": {
       "enemies": [
         {
-          "type": "Slow",
+          "type": "Normal",
           "count": 8
         },
         {
-          "type": "Speedy",
-          "count": 10
+          "type": "Slow",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Normal Boss",
+          "count": 1
         }
       ]
     },
@@ -136,32 +140,45 @@
       "enemies": [
         {
           "type": "Normal",
-          "count": 6
-        },
-        {
-          "type": "Ghoul",
-          "count": 1,
-          "modifiers": [
-            "Boss"
-          ]
+          "count": 2
         },
         {
           "type": "Speedy",
-          "count": 6
+          "count": 2
+        },
+        {
+          "type": "Slow",
+          "count": 2
+        },
+        {
+          "type": "Abnormal",
+          "count": 4
+        },
+        {
+          "type": "Quick",
+          "count": 4
+        },
+        {
+          "type": "Heavy",
+          "count": 4
         }
       ]
     },
     "8": {
       "enemies": [
         {
-          "type": "Speedy",
-          "count": 12
+          "type": "Abnormal",
+          "count": 4
         },
         {
-          "type": "Slow",
-          "count": 10,
+          "type": "Heavy",
+          "count": 8
+        },
+        {
+          "type": "Quick",
+          "count": 6,
           "modifiers": [
-            "Bloated"
+            "Nimble"
           ]
         }
       ]
@@ -169,34 +186,33 @@
     "9": {
       "enemies": [
         {
-          "type": "Hidden",
-          "count": 4
+          "type": "Abnormal",
+          "count": 8
         },
         {
-          "type": "Ghoul",
-          "count": 1
+          "type": "Heavy",
+          "count": 8
         },
         {
-          "type": "Slow",
-          "count": 7,
+          "type": "Elite Abnormal",
+          "count": 1,
           "modifiers": [
-            "Bloated"
+            "Boss"
           ]
-        },
-        {
-          "type": "Ghoul",
-          "count": 1
         }
       ]
     },
     "10": {
       "enemies": [
         {
-          "type": "Slow",
-          "count": 2,
+          "type": "Heavy",
+          "count": 6
+        },
+        {
+          "type": "Quick",
+          "count": 8,
           "modifiers": [
-            "Bloated",
-            "Tank"
+            "Nimble"
           ]
         },
         {
@@ -208,109 +224,121 @@
     "11": {
       "enemies": [
         {
-          "type": "Speedy",
-          "count": 10,
+          "type": "Heavy",
+          "count": 4,
           "modifiers": [
             "Bloated"
           ]
         },
         {
-          "type": "Enraged",
+          "type": "Quick",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Heavy",
+          "count": 4
+        },
+        {
+          "type": "Quick",
           "count": 3
         },
         {
-          "type": "Slime",
+          "type": "Hidden",
+          "count": 8
+        },
+        {
+          "type": "Elite Abnormal",
           "count": 2
-        },
-        {
-          "type": "Ghoul",
-          "count": 3
         }
       ]
     },
     "12": {
       "enemies": [
         {
-          "type": "Ghoul",
-          "count": 1
-        },
-        {
-          "type": "Armored",
+          "type": "Breaker2",
           "count": 6
         },
         {
-          "type": "Ghoul",
-          "count": 1
+          "type": "Hidden",
+          "count": 5
         },
         {
-          "type": "Slow",
-          "count": 8,
-          "modifiers": [
-            "Bloated"
-          ]
+          "type": "Heavy",
+          "count": 3
         },
         {
-          "type": "Ghoul",
-          "count": 1
+          "type": "Hidden",
+          "count": 7
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 2
         }
       ]
     },
     "13": {
       "enemies": [
         {
-          "type": "Enraged",
-          "count": 4,
+          "type": "Bolt",
+          "count": 8
+        },
+        {
+          "type": "Breaker2",
+          "count": 5
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 3
+        },
+        {
+          "type": "Heavy",
+          "count": 6,
           "modifiers": [
-            "Slime"
+            "Bloated"
           ]
         },
         {
           "type": "Breaker2",
-          "count": 6
-        },
-        {
-          "type": "Ghoul",
-          "count": 2
-        },
-        {
-          "type": "Armored",
-          "count": 6
+          "count": 5
         }
       ]
     },
     "14": {
       "enemies": [
         {
-          "type": "Enraged",
+          "type": "Bolt",
+          "count": 6
+        },
+        {
+          "type": "Hidden",
+          "count": 10
+        },
+        {
+          "type": "Abnormal",
           "count": 5,
           "modifiers": [
-            "Hidden"
+            "Bloated"
           ]
         },
         {
-          "type": "Reaver",
-          "count": 1
+          "type": "Quick",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
         },
         {
           "type": "Breaker2",
           "count": 8
         },
         {
-          "type": "Armored",
-          "count": 6,
+          "type": "Bolt",
+          "count": 4,
           "modifiers": [
-            "Health Regen"
-          ]
-        },
-        {
-          "type": "Necromancer",
-          "count": 1
-        },
-        {
-          "type": "Ghoul",
-          "count": 2,
-          "modifiers": [
-            "Slime"
+            "Nimble"
           ]
         }
       ]
@@ -318,53 +346,80 @@
     "15": {
       "enemies": [
         {
-          "type": "Enraged",
-          "count": 7,
-          "modifiers": [
-            "Slime"
-          ]
+          "type": "Hidden",
+          "count": 5
         },
         {
           "type": "Reaver",
-          "count": 1
+          "count": 3
         },
         {
-          "type": "Armored",
-          "count": 8
+          "type": "Hidden",
+          "count": 5
         },
         {
-          "type": "Necromancer",
-          "count": 1
+          "type": "Reaver",
+          "count": 3
         },
         {
           "type": "Breaker2",
-          "count": 6
+          "count": 5
+        },
+        {
+          "type": "Bolt",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 2
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
         }
       ]
     },
     "16": {
       "enemies": [
         {
-          "type": "Slow",
-          "count": 25,
+          "type": "Hidden",
+          "count": 6
+        },
+        {
+          "type": "Bolt",
+          "count": 4,
           "modifiers": [
-            "Health Regen",
-            "Bloated",
-            "Nimble"
+            "Hidden"
           ]
         },
         {
-          "type": "Armored",
-          "count": 10,
+          "type": "Reaver",
+          "count": 2,
           "modifiers": [
-            "Health Regen"
+            "Hidden"
           ]
         },
         {
-          "type": "Living Experiment",
+          "type": "Breaker2",
+          "count": 5
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 2
+        },
+        {
+          "type": "Ghoul",
           "count": 1,
           "modifiers": [
-            "Boss"
+            "Boss",
+            "Bloated",
+            "Hidden"
           ]
         }
       ]
@@ -372,99 +427,86 @@
     "17": {
       "enemies": [
         {
-          "type": "Hidden",
-          "count": 10,
-          "modifiers": [
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Slow",
+          "type": "Heavy",
           "count": 6,
           "modifiers": [
-            "Bloated",
-            "Tank"
+            "Bloated"
           ]
         },
         {
-          "type": "Slime",
-          "count": 4
+          "type": "Elite Abnormal",
+          "count": 2
         },
         {
-          "type": "Armored",
-          "count": 10,
+          "type": "Elite Abnormal",
+          "count": 1,
           "modifiers": [
             "Bloated"
           ]
         },
         {
-          "type": "Hidden",
-          "count": 10,
-          "modifiers": [
-            "Bloated"
-          ]
+          "type": "Reaver",
+          "count": 3
         },
         {
-          "type": "Hazmat",
-          "count": 5
+          "type": "Bolt",
+          "count": 3
         },
         {
-          "type": "Necromancer",
+          "type": "Boomer",
           "count": 1
+        },
+        {
+          "type": "Bolt",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Bolt",
+          "count": 1,
+          "modifiers": [
+            "Nimble",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Ghoul",
+          "count": 3,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Breaker2",
+          "count": 8
+        },
+        {
+          "type": "Bolt",
+          "count": 4
         }
       ]
     },
     "18": {
       "enemies": [
         {
-          "type": "Speedy Boss",
-          "count": 1
+          "type": "Hazmat",
+          "count": 6
         },
         {
-          "type": "Enraged",
-          "count": 5,
-          "modifiers": [
-            "Slime"
-          ]
+          "type": "Reaver",
+          "count": 4
         },
         {
-          "type": "Armored",
-          "count": 15,
-          "modifiers": [
-            "Bloated"
-          ]
+          "type": "Bolt",
+          "count": 8
         },
         {
           "type": "Ghoul",
           "count": 4,
           "modifiers": [
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Necromancer",
-          "count": 2
-        }
-      ]
-    },
-    "19": {
-      "enemies": [
-        {
-          "type": "Breaker2",
-          "count": 10,
-          "modifiers": [
-            "Health Regen"
-          ]
-        },
-        {
-          "type": "Living Experiment",
-          "count": 1
-        },
-        {
-          "type": "Hazmat",
-          "count": 7,
-          "modifiers": [
-            "Health Regen"
+            "Hidden"
           ]
         },
         {
@@ -472,73 +514,103 @@
           "count": 4
         },
         {
-          "type": "Breaker2",
-          "count": 10,
-          "modifiers": [
-            "Health Regen"
-          ]
+          "type": "Hazmat",
+          "count": 6
         },
         {
           "type": "Living Experiment",
-          "count": 1
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
         },
         {
-          "type": "Necromancer",
-          "count": 2
+          "type": "Breaker2",
+          "count": 4
+        }
+      ]
+    },
+    "19": {
+      "enemies": [
+        {
+          "type": "Reaver",
+          "count": 4
+        },
+        {
+          "type": "Ghoul",
+          "count": 2,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Hazmat",
+          "count": 8
+        },
+        {
+          "type": "Breaker2",
+          "count": 4
+        },
+        {
+          "type": "Bolt",
+          "count": 4
+        },
+        {
+          "type": "Bolt",
+          "count": 4,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Hazmat",
+          "count": 6
+        },
+        {
+          "type": "Ghoul",
+          "count": 3,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Reaver",
+          "count": 4
+        },
+        {
+          "type": "Hazmat",
+          "count": 6
         }
       ]
     },
     "20": {
       "enemies": [
         {
-          "type": "Speedy Boss",
-          "count": 1
+          "type": "Bolt",
+          "count": 8
         },
         {
-          "type": "Enraged",
-          "count": 1,
+          "type": "Bolt",
+          "count": 8,
           "modifiers": [
-            "Tank"
+            "Bloated"
           ]
         },
         {
-          "type": "Enraged",
-          "count": 15,
+          "type": "Bolt",
+          "count": 8,
           "modifiers": [
             "Bloated",
-            "Health Regen"
+            "Nimble"
           ]
         },
         {
-          "type": "Hazmat",
-          "count": 3,
-          "modifiers": [
-            "Slime"
-          ]
-        },
-        {
-          "type": "Hidden Boss",
-          "count": 3,
-          "modifiers": [
-            "Slime"
-          ]
-        },
-        {
-          "type": "Hazmat",
-          "count": 6,
-          "modifiers": [
-            "Hidden"
-          ]
-        },
-        {
-          "type": "Breaker2",
-          "count": 10
-        },
-        {
-          "type": "Failed Experiment",
+          "type": "Speedy Boss",
           "count": 1,
           "modifiers": [
-            "Boss"
+            "Boss",
+            "Bloated"
           ]
         }
       ]
@@ -546,247 +618,289 @@
     "21": {
       "enemies": [
         {
-          "type": "Hidden Boss",
-          "count": 3,
-          "modifiers": [
-            "Slime"
-          ]
+          "type": "Hazmat",
+          "count": 6
         },
         {
-          "type": "Hazmat",
-          "count": 8,
-          "modifiers": [
-            "Slime"
-          ]
+          "type": "Slime",
+          "count": 7
         },
         {
           "type": "Breaker2",
-          "count": 10,
-          "modifiers": [
-            "Hidden",
-            "Slime"
-          ]
-        },
-        {
-          "type": "Hazmat",
-          "count": 8,
-          "modifiers": [
-            "Slime"
-          ]
-        },
-        {
-          "type": "Necromancer",
-          "count": 1
-        }
-      ]
-    },
-    "22": {
-      "enemies": [
-        {
-          "type": "Enraged",
-          "count": 7,
-          "modifiers": [
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Speedy Boss",
-          "count": 1
-        },
-        {
-          "type": "Hidden Boss",
-          "count": 1
-        },
-        {
-          "type": "Hazmat",
-          "count": 7,
-          "modifiers": [
-            "Slime"
-          ]
-        },
-        {
-          "type": "Living Experiment",
-          "count": 1,
-          "modifiers": [
-            "Health Regen"
-          ]
-        },
-        {
-          "type": "Ghoul",
-          "count": 6,
-          "modifiers": [
-            "Bloated",
-            "Slime"
-          ]
-        },
-        {
-          "type": "Hidden Boss",
-          "count": 1,
-          "modifiers": [
-            "Bloated"
-          ]
+          "count": 5
         },
         {
           "type": "Reaver",
-          "count": 4,
+          "count": 3
+        },
+        {
+          "type": "Breaker2",
+          "count": 5
+        },
+        {
+          "type": "Slime",
+          "count": 7
+        },
+        {
+          "type": "Reaver",
+          "count": 3,
           "modifiers": [
-            "Health Regen"
+            "Bloated",
+            "Nimble"
           ]
         },
         {
-          "type": "Failed Experiment",
-          "count": 1
-        }
-      ]
-    },
-    "23": {
-      "enemies": [
-        {
-          "type": "Failed Experiment",
-          "count": 1
+          "type": "Elite Abnormal",
+          "count": 3
         },
         {
-          "type": "Enraged",
-          "count": 10,
-          "modifiers": [
-            "Health Regen",
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Hazmat",
-          "count": 10,
-          "modifiers": [
-            "Health Regen"
-          ]
-        },
-        {
-          "type": "Hidden Boss",
+          "type": "Living Experiment",
           "count": 2,
           "modifiers": [
             "Bloated"
           ]
         },
         {
-          "type": "Living Experiment",
-          "count": 1,
-          "modifiers": [
-            "Health Regen"
-          ]
-        },
-        {
-          "type": "Reaver",
-          "count": 6,
-          "modifiers": [
-            "Health Regen"
-          ]
-        },
-        {
-          "type": "Necromancer",
-          "count": 3
-        }
-      ]
-    },
-    "24": {
-      "enemies": [
-        {
-          "type": "Enraged",
-          "count": 12,
-          "modifiers": [
-            "Bloated",
-            "Nimble"
-          ]
-        },
-        {
           "type": "Ghoul",
-          "count": 5,
+          "count": 4,
           "modifiers": [
-            "Bloated",
-            "Slime"
+            "Hidden"
           ]
         },
         {
-          "type": "Enraged",
-          "count": 10,
-          "modifiers": [
-            "Hidden",
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Breaker2",
-          "count": 10,
-          "modifiers": [
-            "Hidden",
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Reaver",
-          "count": 5,
-          "modifiers": [
-            "Bloated",
-            "Nimble"
-          ]
-        },
-        {
-          "type": "Hazmat",
-          "count": 10,
-          "modifiers": [
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Failed Experiment",
-          "count": 2
+          "type": "Slime",
+          "count": 4
         }
       ]
     },
-    "25": {
+    "22": {
       "enemies": [
         {
-          "type": "Enraged",
+          "type": "Bolt",
           "count": 3,
           "modifiers": [
-            "Tank"
+            "Bloated",
+            "Nimble"
           ]
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Slime",
+          "count": 5
+        },
+        {
+          "type": "Living Experiment",
+          "count": 1
+        },
+        {
+          "type": "Breaker4",
+          "count": 3
         },
         {
           "type": "Speedy Boss",
           "count": 1
         },
         {
-          "type": "Failed Experiment",
-          "count": 2
+          "type": "Hazmat",
+          "count": 7
+        },
+        {
+          "type": "Ghoul",
+          "count": 3,
+          "modifiers": [
+            "Hidden",
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Bolt",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Living Experiment",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Hazmat",
+          "count": 5
+        }
+      ]
+    },
+    "23": {
+      "enemies": [
+        {
+          "type": "Living Experiment",
+          "count": 1
+        },
+        {
+          "type": "Breaker2",
+          "count": 5
         },
         {
           "type": "Slime",
+          "count": 4
+        },
+        {
+          "type": "Hazmat",
+          "count": 6
+        },
+        {
+          "type": "Slime",
+          "count": 4
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 8
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Breaker4",
+          "count": 2
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 5
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Bolt",
           "count": 5,
           "modifiers": [
-            "Bloated"
+            "Bloated",
+            "Nimble"
           ]
         },
         {
           "type": "Hidden Boss",
-          "count": 3,
+          "count": 1,
           "modifiers": [
-            "Bloated"
+            "Boss",
+            "Bloated",
+            "Nimble"
           ]
         },
         {
-          "type": "Ghoul",
-          "count": 6,
-          "modifiers": [
-            "Bloated",
-            "Slime"
-          ]
+          "type": "Slime",
+          "count": 7
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 5
+        }
+      ]
+    },
+    "24": {
+      "enemies": [
+        {
+          "type": "Elite Hazmat",
+          "count": 6
+        },
+        {
+          "type": "Breaker4",
+          "count": 3
         },
         {
           "type": "Reaver",
           "count": 4,
           "modifiers": [
-            "Health Regen",
             "Bloated"
+          ]
+        },
+        {
+          "type": "Slime",
+          "count": 6
+        },
+        {
+          "type": "Speedy Boss",
+          "count": 1
+        },
+        {
+          "type": "Bolt",
+          "count": 6
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
+          "modifiers": [
+            "Hidden",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Slime",
+          "count": 6
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 6
+        },
+        {
+          "type": "Speedy Boss",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Bolt",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 6
+        },
+        {
+          "type": "Breaker4",
+          "count": 3
+        },
+        {
+          "type": "Slime",
+          "count": 6
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Reaver",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
           ]
         },
         {
@@ -794,11 +908,67 @@
           "count": 2
         },
         {
+          "type": "Living Experiment",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "25": {
+      "enemies": [
+        {
+          "type": "Slime",
+          "count": 6
+        },
+        {
+          "type": "Ghoul",
+          "count": 2,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Hidden Boss",
+          "count": 3
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 6
+        },
+        {
           "type": "Breaker4",
+          "count": 4
+        },
+        {
+          "type": "Slime",
           "count": 5
         },
         {
-          "type": "Necromancer",
+          "type": "Reaver",
+          "count": 3
+        },
+        {
+          "type": "Ghoul",
+          "count": 3,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Slime",
+          "count": 3
+        },
+        {
+          "type": "Failed Experiment",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Bolt",
           "count": 4
         }
       ]
@@ -806,195 +976,290 @@
     "26": {
       "enemies": [
         {
-          "type": "Hidden Boss",
-          "count": 2,
+          "type": "Living Experiment",
+          "count": 3
+        },
+        {
+          "type": "Breaker4",
+          "count": 3
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
           "modifiers": [
-            "Bloated",
-            "Nimble",
-            "Slime"
+            "Hidden"
           ]
         },
         {
-          "type": "Living Experiment",
-          "count": 5
+          "type": "Slime",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Boomer",
+          "count": 1
         },
         {
           "type": "Hazmat",
-          "count": 10,
+          "count": 6
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 6,
           "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Reaver",
+          "count": 5
+        },
+        {
+          "type": "Slime",
+          "count": 6
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
+          "modifiers": [
+            "Hidden",
             "Bloated"
           ]
         },
         {
-          "type": "Necromancer",
+          "type": "Living Experiment",
           "count": 3
-        },
-        {
-          "type": "Failed Experiment",
-          "count": 3
-        },
-        {
-          "type": "Hidden Boss",
-          "count": 2,
-          "modifiers": [
-            "Bloated",
-            "Slime"
-          ]
         },
         {
           "type": "Speedy Boss",
           "count": 1
+        },
+        {
+          "type": "Bolt",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
         }
       ]
     },
     "27": {
       "enemies": [
         {
-          "type": "Failed Experiment",
-          "count": 2
-        },
-        {
           "type": "Living Experiment",
-          "count": 1,
+          "count": 2,
           "modifiers": [
-            "Health Regen",
             "Bloated"
           ]
         },
         {
           "type": "Reaver",
-          "count": 10,
-          "modifiers": [
-            "Health Regen",
-            "Bloated"
-          ]
+          "count": 3
         },
         {
-          "type": "Living Experiment",
-          "count": 1,
-          "modifiers": [
-            "Health Regen",
-            "Bloated"
-          ]
+          "type": "Elite Hazmat",
+          "count": 9
         },
         {
-          "type": "Ghoul",
-          "count": 12,
+          "type": "Reaver",
+          "count": 5,
           "modifiers": [
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Living Experiment",
-          "count": 1,
-          "modifiers": [
-            "Health Regen",
-            "Bloated"
+            "Hidden"
           ]
         },
         {
           "type": "Breaker4",
-          "count": 10,
-          "modifiers": [
-            "Health Regen"
-          ]
+          "count": 5
         },
         {
           "type": "Living Experiment",
-          "count": 1,
+          "count": 1
+        },
+        {
+          "type": "Slime",
+          "count": 6
+        },
+        {
+          "type": "Bolt",
+          "count": 10,
           "modifiers": [
-            "Health Regen",
-            "Bloated"
+            "Bloated",
+            "Nimble",
+            "Hidden"
           ]
         },
         {
-          "type": "Breaker2",
-          "count": 15,
+          "type": "Ghoul",
+          "count": 4,
           "modifiers": [
-            "Health Regen"
+            "Hidden"
           ]
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
+          "modifiers": [
+            "Bloated",
+            "Nimble",
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 7
+        },
+        {
+          "type": "Slime",
+          "count": 6
         },
         {
           "type": "Failed Experiment",
-          "count": 2
+          "count": 1
+        },
+        {
+          "type": "Reaver",
+          "count": 3
+        },
+        {
+          "type": "Breaker4",
+          "count": 3
+        },
+        {
+          "type": "Living Experiment",
+          "count": 1
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 6
+        },
+        {
+          "type": "Bolt",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Speedy Boss",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Breaker4",
+          "count": 4
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 5
+        },
+        {
+          "type": "Slime",
+          "count": 5
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
+          "modifiers": [
+            "Hidden",
+            "Bloated",
+            "Nimble"
+          ]
         }
       ]
     },
     "28": {
       "enemies": [
         {
-          "type": "Reaver",
-          "count": 8,
+          "type": "Bolt",
+          "count": 10,
           "modifiers": [
-            "Health Regen",
             "Bloated",
-            "Slime"
+            "Nimble"
           ]
         },
         {
+          "type": "Elite Hazmat",
+          "count": 6
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
           "type": "Living Experiment",
-          "count": 1,
-          "modifiers": [
-            "Health Regen",
-            "Bloated"
-          ]
+          "count": 1
         },
         {
           "type": "Ghoul",
-          "count": 10,
+          "count": 3,
           "modifiers": [
+            "Hidden",
             "Bloated",
-            "Slime"
+            "Nimble"
           ]
         },
         {
+          "type": "Elite Hazmat",
+          "count": 6
+        },
+        {
           "type": "Slime",
-          "count": 2,
+          "count": 6
+        },
+        {
+          "type": "Bolt",
+          "count": 5,
           "modifiers": [
-            "Hidden",
+            "Bloated",
+            "Nimble",
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Reaver",
+          "count": 5,
+          "modifiers": [
             "Bloated"
           ]
         },
         {
-          "type": "Living Experiment",
-          "count": 1,
-          "modifiers": [
-            "Bloated",
-            "Health Regen"
-          ]
+          "type": "Boomer",
+          "count": 1
         },
         {
           "type": "Breaker4",
-          "count": 10,
-          "modifiers": [
-            "Bloated"
-          ]
+          "count": 3
         },
         {
           "type": "Slime",
-          "count": 1,
-          "modifiers": [
-            "Hidden",
-            "Bloated"
-          ]
-        },
-        {
-          "type": "Living Experiment",
-          "count": 1,
-          "modifiers": [
-            "Bloated",
-            "Health Regen"
-          ]
-        },
-        {
-          "type": "Necromancer",
-          "count": 2
+          "count": 6
         },
         {
           "type": "Speedy Boss",
+          "count": 1
+        },
+        {
+          "type": "Reaver",
           "count": 2,
           "modifiers": [
-            "Slime"
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Giant Boss",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Boss"
           ]
         }
       ]
@@ -1002,53 +1267,106 @@
     "29": {
       "enemies": [
         {
-          "type": "Failed Experiment",
-          "count": 1,
+          "type": "Elite Hazmat",
+          "count": 6
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Bolt",
+          "count": 8,
           "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
+          "modifiers": [
+            "Hidden",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Speedy Boss",
+          "count": 2
+        },
+        {
+          "type": "Breaker4",
+          "count": 3
+        },
+        {
+          "type": "Slime",
+          "count": 7
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 8
+        },
+        {
+          "type": "Living Experiment",
+          "count": 2
+        },
+        {
+          "type": "Ghoul",
+          "count": 3,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Reaver",
+          "count": 5
+        },
+        {
+          "type": "Slime",
+          "count": 8
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 8
+        },
+        {
+          "type": "Ghoul",
+          "count": 4,
+          "modifiers": [
+            "Hidden",
             "Bloated"
           ]
         },
         {
           "type": "Living Experiment",
-          "count": 4,
-          "modifiers": [
-            "Bloated",
-            "Slime"
-          ]
-        },
-        {
-          "type": "Enraged",
-          "count": 25,
-          "modifiers": [
-            "Health Regen",
-            "Bloated",
-            "Slime"
-          ]
-        },
-        {
-          "type": "Breaker4",
-          "count": 8,
-          "modifiers": [
-            "Health Regen"
-          ]
-        },
-        {
-          "type": "Failed Experiment",
           "count": 1,
           "modifiers": [
             "Bloated"
           ]
         },
         {
-          "type": "Necromancer",
-          "count": 3
+          "type": "Failed Experiment",
+          "count": 1
         },
         {
-          "type": "Slime",
-          "count": 10,
+          "type": "Speedy Boss",
+          "count": 1,
           "modifiers": [
-            "Hidden",
+            "Bloated",
             "Nimble"
+          ]
+        },
+        {
+          "type": "Bolt",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble",
+            "Hidden"
           ]
         }
       ]
@@ -1056,67 +1374,142 @@
     "30": {
       "enemies": [
         {
-          "type": "Failed Experiment",
-          "count": 2,
+          "type": "Normal",
+          "count": 5,
           "modifiers": [
             "Bloated"
           ]
         },
         {
-          "type": "Speedy Boss",
-          "count": 2,
-          "modifiers": [
-            "Slime"
-          ]
-        },
-        {
-          "type": "Breaker4",
-          "count": 10,
+          "type": "Speedy",
+          "count": 5,
           "modifiers": [
             "Bloated"
           ]
         },
         {
-          "type": "Living Experiment",
-          "count": 1,
+          "type": "Slow",
+          "count": 5,
           "modifiers": [
-            "Health Regen",
             "Bloated"
           ]
         },
         {
-          "type": "Reaver",
-          "count": 10,
+          "type": "Abnormal",
+          "count": 5,
           "modifiers": [
-            "Health Regen",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Quick",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Heavy",
+          "count": 5,
+          "modifiers": [
             "Bloated"
           ]
         },
         {
           "type": "Slime",
-          "count": 5,
+          "count": 5
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Normal Boss",
+          "count": 3,
           "modifiers": [
-            "Hidden"
+            "Bloated",
+            "Nimble"
           ]
+        },
+        {
+          "type": "Elite Abnormal",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Breaker4",
+          "count": 2
+        },
+        {
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Slime",
+          "count": 5
+        },
+        {
+          "type": "Reaver",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Ghoul",
+          "count": 3,
+          "modifiers": [
+            "Hidden",
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Bolt",
+          "count": 6
+        },
+        {
+          "type": "Living Experiment",
+          "count": 2
         },
         {
           "type": "Patient Zero",
           "count": 1
         },
         {
-          "type": "Living Experiment",
-          "count": 2,
+          "type": "Giant Boss",
+          "count": 1,
           "modifiers": [
-            "Health Regen",
             "Bloated"
           ]
         },
         {
-          "type": "Enraged",
-          "count": 1,
+          "type": "Boomer",
+          "count": 1
+        },
+        {
+          "type": "Elite Hazmat",
+          "count": 3,
           "modifiers": [
-            "Tank"
+            "Nimble"
           ]
+        },
+        {
+          "type": "Bolt",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Slime",
+          "count": 5
+        },
+        {
+          "type": "Living Experiment",
+          "count": 1
         }
       ]
     }
