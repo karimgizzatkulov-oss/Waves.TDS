@@ -1,0 +1,1351 @@
+{
+  "meta": {
+    "name": "FALLEN",
+    "mode": "fallen",
+    "max_wave": 40,
+    "source": "https://tds.fandom.com/wiki/Fallen_Mode/Waves",
+    "version": "28 January 2026 – Present"
+  },
+  "enemy_traits": {
+    "Abnormal": [],
+    "Quick": [],
+    "Fallen Skeleton": [],
+    "Fallen Dreg": [],
+    "Fallen Squire": [
+      "boss"
+    ],
+    "Breaker2": [],
+    "Fallen Soul": [],
+    "Fallen": [],
+    "Fallen Giant": [
+      "boss"
+    ],
+    "Fallen Hazmat": [],
+    "Possessed Armor": [],
+    "Fallen Necromancer": [],
+    "Corrupted Fallen": [
+      "hidden"
+    ],
+    "Fallen Seraph": [],
+    "Fallen Jester": [
+      "boss"
+    ],
+    "Necrotic Skeleton": [],
+    "Breaker4": [],
+    "Fallen Rusher": [],
+    "Fallen Hero": [],
+    "Fallen Shield": [
+      "boss"
+    ],
+    "Fallen Summoner": [],
+    "Fallen Angel": [
+      "boss"
+    ],
+    "Fallen Honor Guard": [
+      "boss"
+    ],
+    "Fallen Tank": [],
+    "Fallen Guardian": [
+      "boss"
+    ],
+    "Fallen King": [
+      "boss"
+    ]
+  },
+  "waves": {
+    "1": {
+      "enemies": [
+        {
+          "type": "Abnormal",
+          "count": 5
+        }
+      ]
+    },
+    "2": {
+      "enemies": [
+        {
+          "type": "Abnormal",
+          "count": 8
+        }
+      ]
+    },
+    "3": {
+      "enemies": [
+        {
+          "type": "Quick",
+          "count": 1
+        },
+        {
+          "type": "Abnormal",
+          "count": 2
+        },
+        {
+          "type": "Quick",
+          "count": 1
+        },
+        {
+          "type": "Abnormal",
+          "count": 2
+        },
+        {
+          "type": "Quick",
+          "count": 1
+        },
+        {
+          "type": "Abnormal",
+          "count": 2
+        },
+        {
+          "type": "Quick",
+          "count": 1
+        }
+      ]
+    },
+    "4": {
+      "enemies": [
+        {
+          "type": "Quick",
+          "count": 8
+        },
+        {
+          "type": "Abnormal",
+          "count": 8
+        }
+      ]
+    },
+    "5": {
+      "enemies": [
+        {
+          "type": "Fallen Skeleton",
+          "count": 3
+        },
+        {
+          "type": "Abnormal",
+          "count": 5
+        },
+        {
+          "type": "Quick",
+          "count": 5
+        }
+      ]
+    },
+    "6": {
+      "enemies": [
+        {
+          "type": "Fallen Skeleton",
+          "count": 5
+        }
+      ]
+    },
+    "7": {
+      "enemies": [
+        {
+          "type": "Fallen Dreg",
+          "count": 1
+        },
+        {
+          "type": "Abnormal",
+          "count": 9,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Quick",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "8": {
+      "enemies": [
+        {
+          "type": "Fallen Dreg",
+          "count": 1
+        },
+        {
+          "type": "Fallen Skeleton",
+          "count": 2
+        },
+        {
+          "type": "Fallen Dreg",
+          "count": 1
+        },
+        {
+          "type": "Fallen Skeleton",
+          "count": 2
+        },
+        {
+          "type": "Fallen Dreg",
+          "count": 1
+        }
+      ]
+    },
+    "9": {
+      "enemies": [
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Boss",
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Abnormal",
+          "count": 3
+        },
+        {
+          "type": "Abnormal",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Skeleton",
+          "count": 2
+        },
+        {
+          "type": "Fallen Skeleton",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "enemies": [
+        {
+          "type": "Fallen Dreg",
+          "count": 1
+        },
+        {
+          "type": "Breaker2",
+          "count": 1
+        },
+        {
+          "type": "Fallen Skeleton",
+          "count": 2
+        },
+        {
+          "type": "Fallen Dreg",
+          "count": 1
+        },
+        {
+          "type": "Breaker2",
+          "count": 1
+        },
+        {
+          "type": "Fallen Skeleton",
+          "count": 2
+        },
+        {
+          "type": "Fallen Dreg",
+          "count": 1
+        }
+      ]
+    },
+    "11": {
+      "enemies": [
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Fallen Dreg",
+          "count": 3
+        },
+        {
+          "type": "Fallen Skeleton",
+          "count": 3
+        },
+        {
+          "type": "Breaker2",
+          "count": 3
+        }
+      ]
+    },
+    "12": {
+      "enemies": [
+        {
+          "type": "Fallen Soul",
+          "count": 11
+        }
+      ]
+    },
+    "13": {
+      "enemies": [
+        {
+          "type": "Fallen Skeleton",
+          "count": 5
+        },
+        {
+          "type": "Fallen Dreg",
+          "count": 2
+        },
+        {
+          "type": "Fallen Dreg",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "14": {
+      "enemies": [
+        {
+          "type": "Breaker2",
+          "count": 6
+        },
+        {
+          "type": "Fallen Soul",
+          "count": 6
+        },
+        {
+          "type": "Fallen",
+          "count": 3
+        }
+      ]
+    },
+    "15": {
+      "enemies": [
+        {
+          "type": "Fallen Skeleton",
+          "count": 8
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Breaker2",
+          "count": 4
+        },
+        {
+          "type": "Fallen",
+          "count": 1
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Aggro"
+          ]
+        }
+      ]
+    },
+    "16": {
+      "enemies": [
+        {
+          "type": "Fallen Dreg",
+          "count": 5
+        },
+        {
+          "type": "Fallen Soul",
+          "count": 4
+        },
+        {
+          "type": "Fallen",
+          "count": 3
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 2
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        }
+      ]
+    },
+    "17": {
+      "enemies": [
+        {
+          "type": "Fallen Hazmat",
+          "count": 3
+        },
+        {
+          "type": "Fallen",
+          "count": 1
+        },
+        {
+          "type": "Fallen Hazmat",
+          "count": 3
+        },
+        {
+          "type": "Fallen",
+          "count": 1
+        }
+      ]
+    },
+    "18": {
+      "enemies": [
+        {
+          "type": "Fallen Giant",
+          "count": 1
+        },
+        {
+          "type": "Fallen Hazmat",
+          "count": 7
+        }
+      ]
+    },
+    "19": {
+      "enemies": [
+        {
+          "type": "Fallen Squire",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Dreg",
+          "count": 10
+        },
+        {
+          "type": "Fallen",
+          "count": 4
+        },
+        {
+          "type": "Fallen Soul",
+          "count": 8,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 1
+        }
+      ]
+    },
+    "20": {
+      "enemies": [
+        {
+          "type": "Fallen",
+          "count": 6
+        },
+        {
+          "type": "Fallen Hazmat",
+          "count": 5
+        },
+        {
+          "type": "Fallen Skeleton",
+          "count": 8
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 3,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Freeze Immune",
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "21": {
+      "enemies": [
+        {
+          "type": "Corrupted Fallen",
+          "count": 1
+        },
+        {
+          "type": "Breaker2",
+          "count": 5
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 3
+        },
+        {
+          "type": "Fallen Soul",
+          "count": 8
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 2
+        },
+        {
+          "type": "Corrupted Fallen",
+          "count": 1
+        }
+      ]
+    },
+    "22": {
+      "enemies": [
+        {
+          "type": "Corrupted Fallen",
+          "count": 3
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 2,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Seraph",
+          "count": 5
+        }
+      ]
+    },
+    "23": {
+      "enemies": [
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Fallen Seraph",
+          "count": 5
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Squire",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Fallen Hazmat",
+          "count": 5,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "24": {
+      "enemies": [
+        {
+          "type": "Fallen Soul",
+          "count": 7,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 1
+        },
+        {
+          "type": "Fallen Hazmat",
+          "count": 4
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 1
+        },
+        {
+          "type": "Corrupted Fallen",
+          "count": 2,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 1
+        }
+      ]
+    },
+    "25": {
+      "enemies": [
+        {
+          "type": "Possessed Armor",
+          "count": 1,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Fallen Hazmat",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Corrupted Fallen",
+          "count": 3
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 3
+        },
+        {
+          "type": "Fallen Jester",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        }
+      ]
+    },
+    "26": {
+      "enemies": [
+        {
+          "type": "Necrotic Skeleton",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 2
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Breaker4",
+          "count": 8
+        }
+      ]
+    },
+    "27": {
+      "enemies": [
+        {
+          "type": "Fallen Giant",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Necrotic Skeleton",
+          "count": 3
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 3
+        },
+        {
+          "type": "Fallen Seraph",
+          "count": 8,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "28": {
+      "enemies": [
+        {
+          "type": "Fallen Rusher",
+          "count": 7
+        }
+      ]
+    },
+    "29": {
+      "enemies": [
+        {
+          "type": "Fallen Rusher",
+          "count": 1
+        },
+        {
+          "type": "Corrupted Fallen",
+          "count": 4
+        },
+        {
+          "type": "Breaker4",
+          "count": 10
+        },
+        {
+          "type": "Fallen Hazmat",
+          "count": 8
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Seraph",
+          "count": 9
+        }
+      ]
+    },
+    "30": {
+      "enemies": [
+        {
+          "type": "Fallen Rusher",
+          "count": 3
+        },
+        {
+          "type": "Corrupted Fallen",
+          "count": 5
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 4
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Shield",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Necrotic Skeleton",
+          "count": 5
+        },
+        {
+          "type": "Fallen Summoner",
+          "count": 1
+        }
+      ]
+    },
+    "31": {
+      "enemies": [
+        {
+          "type": "Fallen Hero",
+          "count": 2
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 2
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 2
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Hazmat",
+          "count": 7,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 3
+        },
+        {
+          "type": "Corrupted Fallen",
+          "count": 4
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 2,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Summoner",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "32": {
+      "enemies": [
+        {
+          "type": "Fallen Shield",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Rusher",
+          "count": 5
+        },
+        {
+          "type": "Breaker4",
+          "count": 6
+        },
+        {
+          "type": "Fallen Jester",
+          "count": 2
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 4
+        }
+      ]
+    },
+    "33": {
+      "enemies": [
+        {
+          "type": "Necrotic Skeleton",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Corrupted Fallen",
+          "count": 7
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 3,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 3
+        },
+        {
+          "type": "Fallen Seraph",
+          "count": 9,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Seraph",
+          "count": 9,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Angel",
+          "count": 1,
+          "modifiers": [
+            "Boss",
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "34": {
+      "enemies": [
+        {
+          "type": "Fallen Shield",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Necrotic Skeleton",
+          "count": 1
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 2
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Rusher",
+          "count": 3
+        },
+        {
+          "type": "Necrotic Skeleton",
+          "count": 1
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 2
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Rusher",
+          "count": 3
+        },
+        {
+          "type": "Fallen Summoner",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "35": {
+      "enemies": [
+        {
+          "type": "Necrotic Skeleton",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Breaker4",
+          "count": 9,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 3,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 2,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Nimble",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Honor Guard",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        }
+      ]
+    },
+    "36": {
+      "enemies": [
+        {
+          "type": "Fallen Giant",
+          "count": 4,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Corrupted Fallen",
+          "count": 8
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 10
+        },
+        {
+          "type": "Fallen Tank",
+          "count": 1
+        }
+      ]
+    },
+    "37": {
+      "enemies": [
+        {
+          "type": "Corrupted Fallen",
+          "count": 10,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 4
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Nimble",
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 5
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 4
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Nimble",
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 5
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 4
+        },
+        {
+          "type": "Fallen Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Nimble",
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 5
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 3,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Angel",
+          "count": 2
+        },
+        {
+          "type": "Fallen Angel",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Summoner",
+          "count": 2,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "38": {
+      "enemies": [
+        {
+          "type": "Fallen Shield",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Necrotic Skeleton",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 4
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 4
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Rusher",
+          "count": 7
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 5
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Angel",
+          "count": 5
+        },
+        {
+          "type": "Fallen Guardian",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Tank",
+          "count": 1
+        }
+      ]
+    },
+    "39": {
+      "enemies": [
+        {
+          "type": "Fallen Tank",
+          "count": 1
+        },
+        {
+          "type": "Fallen Rusher",
+          "count": 6
+        },
+        {
+          "type": "Breaker4",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Shield",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 7
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 5,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Jester",
+          "count": 3
+        },
+        {
+          "type": "Fallen Guardian",
+          "count": 1
+        },
+        {
+          "type": "Fallen Summoner",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "40": {
+      "enemies": [
+        {
+          "type": "Fallen Shield",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Rusher",
+          "count": 4
+        },
+        {
+          "type": "Necrotic Skeleton",
+          "count": 3,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Rusher",
+          "count": 4
+        },
+        {
+          "type": "Fallen Tank",
+          "count": 1
+        },
+        {
+          "type": "Possessed Armor",
+          "count": 6
+        },
+        {
+          "type": "Fallen Hero",
+          "count": 5
+        },
+        {
+          "type": "Fallen Giant",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Fallen Angel",
+          "count": 3
+        },
+        {
+          "type": "Fallen Summoner",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Fallen Guardian",
+          "count": 2
+        },
+        {
+          "type": "Fallen King",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Fallen Summoner",
+          "count": 1
+        }
+      ]
+    }
+  }
+}
