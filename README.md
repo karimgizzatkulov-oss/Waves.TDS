@@ -11,6 +11,7 @@ Wave databases for Tower Defense Simulator helper overlays.
 | `data/intermediate_waves.json` | Intermediate | 30 |
 | `data/molten_waves.json` | Molten | 35 |
 | `data/fallen_waves.json` | Fallen | 40 |
+| `data/frost_waves.json` | Frost | 40 |
 
 Each JSON contains enemy lists per wave (no commander dialogue).
 
@@ -20,6 +21,7 @@ Each JSON contains enemy lists per wave (no commander dialogue).
 - Intermediate: [TDS Fandom — Intermediate Mode/Waves](https://tds.fandom.com/wiki/Intermediate_Mode/Waves) (**28 January 2026 – Present**, v1.84.0)
 - Molten: manual wiki screenshots (**28 January 2026 – Present**, v1.84.0)
 - Fallen: manual wiki screenshots (**28 January 2026 – Present**, v1.84.0)
+- Frost: manual wiki screenshots (**28 January 2026 – Present**, v1.84.0)
 
 ## Format
 

@@ -1,0 +1,1226 @@
+{
+  "meta": {
+    "name": "FROST",
+    "mode": "frost",
+    "max_wave": 40,
+    "source": "https://tds.fandom.com/wiki/Frost_Mode/Waves",
+    "version": "28 January 2026 – Present"
+  },
+  "enemy_traits": {
+    "Frozen": [],
+    "Snowy": [],
+    "Packed Ice": [],
+    "Snow Minion": [
+      "boss"
+    ],
+    "Frost Mystery": [],
+    "Frostmite": [],
+    "Cold Mist": [],
+    "Permafrost": [],
+    "Frost Hunter": [
+      "boss"
+    ],
+    "Unstable Ice": [],
+    "Frost Wraith": [],
+    "Frost Acolyte": [
+      "boss"
+    ],
+    "Crying Angel": [],
+    "Frost Undead": [],
+    "Frost Invader": [
+      "lead",
+      "boss"
+    ],
+    "Mega Frost Mystery": [],
+    "Frost Ravager": [
+      "boss"
+    ],
+    "Trickster Elf": [
+      "hidden"
+    ],
+    "Yeti": [],
+    "Frost Mage": [
+      "boss"
+    ],
+    "Frost Hero": [
+      "boss"
+    ],
+    "Frost Necromancer": [
+      "boss"
+    ],
+    "Deep Freeze": [],
+    "Frost Spirit": [
+      "boss"
+    ]
+  },
+  "waves": {
+    "1": {
+      "enemies": [
+        {
+          "type": "Frozen",
+          "count": 4
+        }
+      ]
+    },
+    "2": {
+      "enemies": [
+        {
+          "type": "Frozen",
+          "count": 8
+        }
+      ]
+    },
+    "3": {
+      "enemies": [
+        {
+          "type": "Frozen",
+          "count": 4
+        },
+        {
+          "type": "Snowy",
+          "count": 3
+        },
+        {
+          "type": "Frozen",
+          "count": 4
+        }
+      ]
+    },
+    "4": {
+      "enemies": [
+        {
+          "type": "Snowy",
+          "count": 8
+        },
+        {
+          "type": "Frozen",
+          "count": 3
+        }
+      ]
+    },
+    "5": {
+      "enemies": [
+        {
+          "type": "Packed Ice",
+          "count": 1
+        },
+        {
+          "type": "Frozen",
+          "count": 4
+        },
+        {
+          "type": "Packed Ice",
+          "count": 1
+        },
+        {
+          "type": "Frozen",
+          "count": 4
+        }
+      ]
+    },
+    "6": {
+      "enemies": [
+        {
+          "type": "Packed Ice",
+          "count": 3
+        },
+        {
+          "type": "Snowy",
+          "count": 8
+        }
+      ]
+    },
+    "7": {
+      "enemies": [
+        {
+          "type": "Snow Minion",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Snowy",
+          "count": 8
+        }
+      ]
+    },
+    "8": {
+      "enemies": [
+        {
+          "type": "Packed Ice",
+          "count": 3
+        },
+        {
+          "type": "Frozen",
+          "count": 6
+        },
+        {
+          "type": "Snowy",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "enemies": [
+        {
+          "type": "Packed Ice",
+          "count": 5
+        },
+        {
+          "type": "Frost Mystery",
+          "count": 2
+        }
+      ]
+    },
+    "10": {
+      "enemies": [
+        {
+          "type": "Packed Ice",
+          "count": 6
+        },
+        {
+          "type": "Frostmite",
+          "count": 5
+        },
+        {
+          "type": "Snow Minion",
+          "count": 1
+        }
+      ]
+    },
+    "11": {
+      "enemies": [
+        {
+          "type": "Frostmite",
+          "count": 5
+        },
+        {
+          "type": "Packed Ice",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Frozen",
+          "count": 5
+        },
+        {
+          "type": "Packed Ice",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Snowy",
+          "count": 4,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Snow Minion",
+          "count": 1
+        }
+      ]
+    },
+    "12": {
+      "enemies": [
+        {
+          "type": "Cold Mist",
+          "count": 6
+        },
+        {
+          "type": "Snow Minion",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "13": {
+      "enemies": [
+        {
+          "type": "Frost Mystery",
+          "count": 8
+        }
+      ]
+    },
+    "14": {
+      "enemies": [
+        {
+          "type": "Frostmite",
+          "count": 6
+        },
+        {
+          "type": "Permafrost",
+          "count": 3
+        },
+        {
+          "type": "Snow Minion",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "enemies": [
+        {
+          "type": "Cold Mist",
+          "count": 6
+        },
+        {
+          "type": "Packed Ice",
+          "count": 3,
+          "modifiers": [
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Frostmite",
+          "count": 6
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Snow Minion",
+          "count": 2
+        }
+      ]
+    },
+    "16": {
+      "enemies": [
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Frost Mystery",
+          "count": 4
+        },
+        {
+          "type": "Packed Ice",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Frost Mystery",
+          "count": 4,
+          "modifiers": [
+            "Aggro"
+          ]
+        }
+      ]
+    },
+    "17": {
+      "enemies": [
+        {
+          "type": "Permafrost",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Stun Immune",
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Snowy",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Frostmite",
+          "count": 6
+        },
+        {
+          "type": "Cold Mist",
+          "count": 6
+        }
+      ]
+    },
+    "18": {
+      "enemies": [
+        {
+          "type": "Permafrost",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Mystery",
+          "count": 6
+        },
+        {
+          "type": "Frost Wraith",
+          "count": 1
+        },
+        {
+          "type": "Frostmite",
+          "count": 5
+        },
+        {
+          "type": "Frost Wraith",
+          "count": 1
+        }
+      ]
+    },
+    "19": {
+      "enemies": [
+        {
+          "type": "Snow Minion",
+          "count": 4,
+          "modifiers": [
+            "Stun Immune",
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Cold Mist",
+          "count": 5,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frostmite",
+          "count": 6
+        },
+        {
+          "type": "Permafrost",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Frost Acolyte",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        }
+      ]
+    },
+    "20": {
+      "enemies": [
+        {
+          "type": "Frost Hunter",
+          "count": 4,
+          "modifiers": [
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Frost Acolyte",
+          "count": 1
+        }
+      ]
+    },
+    "21": {
+      "enemies": [
+        {
+          "type": "Permafrost",
+          "count": 1,
+          "modifiers": [
+            "Aggro",
+            "Bloated",
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Frostmite",
+          "count": 6,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Snow Minion",
+          "count": 6,
+          "modifiers": [
+            "Stun Immune",
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Crying Angel",
+          "count": 3
+        }
+      ]
+    },
+    "22": {
+      "enemies": [
+        {
+          "type": "Unstable Ice",
+          "count": 3
+        },
+        {
+          "type": "Crying Angel",
+          "count": 5
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Snow Minion",
+          "count": 5,
+          "modifiers": [
+            "Stun Immune",
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 1,
+          "modifiers": [
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Frost Acolyte",
+          "count": 1
+        }
+      ]
+    },
+    "23": {
+      "enemies": [
+        {
+          "type": "Frostmite",
+          "count": 4,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Wraith",
+          "count": 2
+        },
+        {
+          "type": "Frost Undead",
+          "count": 1
+        },
+        {
+          "type": "Frost Mystery",
+          "count": 5
+        },
+        {
+          "type": "Permafrost",
+          "count": 4
+        },
+        {
+          "type": "Frost Undead",
+          "count": 1
+        }
+      ]
+    },
+    "24": {
+      "enemies": [
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Cold Mist",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Frost Invader",
+          "count": 1,
+          "modifiers": [
+            "Boss",
+            "Lead",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Snow Minion",
+          "count": 4
+        }
+      ]
+    },
+    "25": {
+      "enemies": [
+        {
+          "type": "Frost Acolyte",
+          "count": 2,
+          "modifiers": [
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 7
+        }
+      ]
+    },
+    "26": {
+      "enemies": [
+        {
+          "type": "Unstable Ice",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Undead",
+          "count": 1
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 1,
+          "modifiers": [
+            "Stun Immune",
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Frost Wraith",
+          "count": 5
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 1,
+          "modifiers": [
+            "Stun Immune",
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Frost Mystery",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "27": {
+      "enemies": [
+        {
+          "type": "Unstable Ice",
+          "count": 3
+        },
+        {
+          "type": "Frost Invader",
+          "count": 1,
+          "modifiers": [
+            "Lead"
+          ]
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 4
+        },
+        {
+          "type": "Frost Undead",
+          "count": 3
+        }
+      ]
+    },
+    "28": {
+      "enemies": [
+        {
+          "type": "Frost Invader",
+          "count": 1,
+          "modifiers": [
+            "Freeze"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Permafrost",
+          "count": 5
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 1
+        },
+        {
+          "type": "Frost Ravager",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 3
+        }
+      ]
+    },
+    "29": {
+      "enemies": [
+        {
+          "type": "Cold Mist",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Wraith",
+          "count": 5
+        },
+        {
+          "type": "Frost Invader",
+          "count": 1,
+          "modifiers": [
+            "Lead"
+          ]
+        },
+        {
+          "type": "Frost Acolyte",
+          "count": 2,
+          "modifiers": [
+            "Health Regen",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Trickster Elf",
+          "count": 2
+        }
+      ]
+    },
+    "30": {
+      "enemies": [
+        {
+          "type": "Frost Invader",
+          "count": 2,
+          "modifiers": [
+            "Lead"
+          ]
+        },
+        {
+          "type": "Frost Mystery",
+          "count": 4
+        },
+        {
+          "type": "Frost Undead",
+          "count": 3
+        },
+        {
+          "type": "Yeti",
+          "count": 1
+        }
+      ]
+    },
+    "31": {
+      "enemies": [
+        {
+          "type": "Frost Undead",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 6
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 3
+        },
+        {
+          "type": "Frost Wraith",
+          "count": 6
+        },
+        {
+          "type": "Yeti",
+          "count": 1
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 3
+        },
+        {
+          "type": "Crying Angel",
+          "count": 5,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "32": {
+      "enemies": [
+        {
+          "type": "Frost Invader",
+          "count": 3,
+          "modifiers": [
+            "Lead"
+          ]
+        },
+        {
+          "type": "Crying Angel",
+          "count": 4,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Crying Angel",
+          "count": 8
+        },
+        {
+          "type": "Frost Mage",
+          "count": 1,
+          "modifiers": [
+            "Boss",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Crying Angel",
+          "count": 4,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Wraith",
+          "count": 10,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ]
+    },
+    "33": {
+      "enemies": [
+        {
+          "type": "Yeti",
+          "count": 1
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 3,
+          "modifiers": [
+            "Nimble",
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Yeti",
+          "count": 1
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 3,
+          "modifiers": [
+            "Nimble",
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Yeti",
+          "count": 1
+        }
+      ]
+    },
+    "34": {
+      "enemies": [
+        {
+          "type": "Frost Acolyte",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Ravager",
+          "count": 1
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Mage",
+          "count": 1
+        },
+        {
+          "type": "Frost Invader",
+          "count": 2,
+          "modifiers": [
+            "Lead"
+          ]
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 4
+        },
+        {
+          "type": "Trickster Elf",
+          "count": 2,
+          "modifiers": [
+            "Hidden"
+          ]
+        }
+      ]
+    },
+    "35": {
+      "enemies": [
+        {
+          "type": "Frost Invader",
+          "count": 2,
+          "modifiers": [
+            "Lead"
+          ]
+        },
+        {
+          "type": "Frost Hero",
+          "count": 1,
+          "modifiers": [
+            "Boss",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 3,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Frost Ravager",
+          "count": 1
+        },
+        {
+          "type": "Frost Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Boss",
+            "Bloated"
+          ]
+        }
+      ]
+    },
+    "36": {
+      "enemies": [
+        {
+          "type": "Deep Freeze",
+          "count": 3
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 5,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Mage",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Yeti",
+          "count": 1
+        },
+        {
+          "type": "Frost Mage",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Undead",
+          "count": 6
+        }
+      ]
+    },
+    "37": {
+      "enemies": [
+        {
+          "type": "Deep Freeze",
+          "count": 3
+        },
+        {
+          "type": "Frost Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Yeti",
+          "count": 1
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 8
+        },
+        {
+          "type": "Frost Undead",
+          "count": 8
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 6
+        }
+      ]
+    },
+    "38": {
+      "enemies": [
+        {
+          "type": "Deep Freeze",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Frost Hero",
+          "count": 1,
+          "modifiers": [
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Frost Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Frost Wraith",
+          "count": 4
+        },
+        {
+          "type": "Frost Necromancer",
+          "count": 1,
+          "modifiers": [
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Frost Ravager",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Trickster Elf",
+          "count": 3
+        }
+      ]
+    },
+    "39": {
+      "enemies": [
+        {
+          "type": "Frost Hero",
+          "count": 1,
+          "modifiers": [
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Deep Freeze",
+          "count": 4
+        },
+        {
+          "type": "Frost Hero",
+          "count": 1,
+          "modifiers": [
+            "Freeze Immune",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Frost Mage",
+          "count": 3,
+          "modifiers": [
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Frost Hero",
+          "count": 1,
+          "modifiers": [
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 8,
+          "modifiers": [
+            "Bloated",
+            "Stun Immune"
+          ]
+        }
+      ]
+    },
+    "40": {
+      "enemies": [
+        {
+          "type": "Frost Undead",
+          "count": 6
+        },
+        {
+          "type": "Frost Invader",
+          "count": 4,
+          "modifiers": [
+            "Lead",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Frost Ravager",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Frost Hunter",
+          "count": 9,
+          "modifiers": [
+            "Bloated",
+            "Nimble",
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 5,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Mage",
+          "count": 1
+        },
+        {
+          "type": "Yeti",
+          "count": 1
+        },
+        {
+          "type": "Frost Ravager",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Unstable Ice",
+          "count": 5,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Frost Hero",
+          "count": 3
+        },
+        {
+          "type": "Frost Spirit",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Mega Frost Mystery",
+          "count": 8,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Deep Freeze",
+          "count": 3
+        },
+        {
+          "type": "Frost Necromancer",
+          "count": 1
+        }
+      ]
+    }
+  }
+}
