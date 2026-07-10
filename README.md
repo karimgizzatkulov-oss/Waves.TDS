@@ -12,6 +12,7 @@ Wave databases for Tower Defense Simulator helper overlays.
 | `data/molten_waves.json` | Molten | 35 |
 | `data/fallen_waves.json` | Fallen | 40 |
 | `data/frost_waves.json` | Frost | 40 |
+| `data/hardcore_waves.json` | Hardcore | 45 |
 
 Each JSON contains enemy lists per wave (no commander dialogue).
 
@@ -22,6 +23,7 @@ Each JSON contains enemy lists per wave (no commander dialogue).
 - Molten: manual wiki screenshots (**28 January 2026 – Present**, v1.84.0)
 - Fallen: manual wiki screenshots (**28 January 2026 – Present**, v1.84.0)
 - Frost: manual wiki screenshots (**28 January 2026 – Present**, v1.84.0)
+- Hardcore: manual wiki screenshots (**28 January 2026 – Present**, v1.84.0)
 
 ## Format
 
@@ -31,7 +33,9 @@ Each JSON contains enemy lists per wave (no commander dialogue).
   "enemy_traits": { "Hidden": ["hidden"], "Armored": ["lead"] },
   "waves": {
     "1": {
-      "enemies": [{ "type": "Normal", "count": 4 }]
+      "enemies": [{ "type": "Normal", "count": 4 }],
+      "wave_time": "00:15",
+      "skip_at": "00:05"
     }
   }
 }
