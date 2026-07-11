@@ -1,0 +1,1538 @@
+{
+  "meta": {
+    "name": "HARDCORE",
+    "mode": "hardcore",
+    "max_wave": 45,
+    "source": "https://tds.fandom.com/wiki/Hardcore_Mode/Waves",
+    "version": "28 January 2026 – Present"
+  },
+  "enemy_traits": {
+    "Odd": [],
+    "Swift": [],
+    "Hefty": [],
+    "Mandrake": [],
+    "Phantom": [
+      "hidden"
+    ],
+    "Balloon": [
+      "flying"
+    ],
+    "Lead": [
+      "lead"
+    ],
+    "Elite Lead": [
+      "lead"
+    ],
+    "Mystery": [],
+    "Blighted": [
+      "boss"
+    ],
+    "Cursed Skeleton": [],
+    "Voidling": [],
+    "Void Reaper": [
+      "boss"
+    ],
+    "Elite Phantom": [
+      "hidden"
+    ],
+    "Mandragora": [
+      "boss"
+    ],
+    "Void Rusher": [],
+    "Void Pike": [
+      "lead"
+    ],
+    "Void Titan": [
+      "boss"
+    ],
+    "Void Floater": [
+      "flying"
+    ],
+    "Elite Mystery": [],
+    "Void Brute": [
+      "boss"
+    ],
+    "Unknown Small": [],
+    "Nightshade": [],
+    "Elite Void Rusher": [],
+    "Void Keeper": [
+      "boss"
+    ],
+    "Soul": [
+      "hidden"
+    ],
+    "Slow King": [
+      "boss"
+    ],
+    "Speedy King": [
+      "boss"
+    ],
+    "Void Cultist": [],
+    "Vindicator": [
+      "boss"
+    ],
+    "Elite Soul": [
+      "hidden"
+    ],
+    "Unknown Boss": [
+      "boss"
+    ],
+    "Heavy Voidling": [],
+    "Void Knight": [
+      "boss"
+    ],
+    "Void Trickster": [],
+    "Void Swordmaster": [
+      "boss"
+    ],
+    "Void Guardian": [
+      "boss"
+    ],
+    "Void Reaver": [
+      "boss"
+    ]
+  },
+  "waves": {
+    "1": {
+      "enemies": [
+        {
+          "type": "Odd",
+          "count": 3
+        },
+        {
+          "type": "Swift",
+          "count": 3
+        }
+      ],
+      "wave_time": "00:15",
+      "skip_at": "00:05"
+    },
+    "2": {
+      "enemies": [
+        {
+          "type": "Odd",
+          "count": 7
+        }
+      ],
+      "wave_time": "00:15",
+      "skip_at": "00:05"
+    },
+    "3": {
+      "enemies": [
+        {
+          "type": "Swift",
+          "count": 5
+        }
+      ],
+      "wave_time": "00:15",
+      "skip_at": "00:05"
+    },
+    "4": {
+      "enemies": [
+        {
+          "type": "Hefty",
+          "count": 4
+        },
+        {
+          "type": "Odd",
+          "count": 5
+        }
+      ],
+      "wave_time": "00:20",
+      "skip_at": "00:06"
+    },
+    "5": {
+      "enemies": [
+        {
+          "type": "Hefty",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Swift",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ],
+      "wave_time": "00:20",
+      "skip_at": "00:06"
+    },
+    "6": {
+      "enemies": [
+        {
+          "type": "Odd",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Hefty",
+          "count": 6
+        }
+      ],
+      "wave_time": "00:20",
+      "skip_at": "00:06"
+    },
+    "7": {
+      "enemies": [
+        {
+          "type": "Hefty",
+          "count": 3,
+          "modifiers": [
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Odd",
+          "count": 6
+        },
+        {
+          "type": "Swift",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ],
+      "wave_time": "00:25",
+      "skip_at": "00:08"
+    },
+    "8": {
+      "enemies": [
+        {
+          "type": "Mandrake",
+          "count": 1
+        },
+        {
+          "type": "Hefty",
+          "count": 4
+        },
+        {
+          "type": "Odd",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ],
+      "wave_time": "00:25",
+      "skip_at": "00:08"
+    },
+    "9": {
+      "enemies": [
+        {
+          "type": "Hefty",
+          "count": 12
+        }
+      ],
+      "wave_time": "00:25",
+      "skip_at": "00:08"
+    },
+    "10": {
+      "enemies": [
+        {
+          "type": "Phantom",
+          "count": 7
+        }
+      ],
+      "wave_time": "00:20",
+      "skip_at": "00:06"
+    },
+    "11": {
+      "enemies": [
+        {
+          "type": "Hefty",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Mandrake",
+          "count": 1
+        },
+        {
+          "type": "Swift",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ],
+      "wave_time": "00:20",
+      "skip_at": "00:06"
+    },
+    "12": {
+      "enemies": [
+        {
+          "type": "Balloon",
+          "count": 6
+        }
+      ],
+      "wave_time": "00:20",
+      "skip_at": "00:06"
+    },
+    "13": {
+      "enemies": [
+        {
+          "type": "Phantom",
+          "count": 4
+        },
+        {
+          "type": "Mandrake",
+          "count": 1,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Phantom",
+          "count": 4
+        },
+        {
+          "type": "Mandrake",
+          "count": 1,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Phantom",
+          "count": 2
+        }
+      ],
+      "wave_time": "00:20",
+      "skip_at": "00:06"
+    },
+    "14": {
+      "enemies": [
+        {
+          "type": "Lead",
+          "count": 8
+        }
+      ],
+      "wave_time": "00:25",
+      "skip_at": "00:08"
+    },
+    "15": {
+      "enemies": [
+        {
+          "type": "Phantom",
+          "count": 6
+        },
+        {
+          "type": "Mandrake",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Balloon",
+          "count": 7
+        },
+        {
+          "type": "Mandrake",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Lead",
+          "count": 6
+        }
+      ],
+      "wave_time": "00:25",
+      "skip_at": "00:08"
+    },
+    "16": {
+      "enemies": [
+        {
+          "type": "Mandrake",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Lead",
+          "count": 6
+        },
+        {
+          "type": "Lead",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Lead",
+          "count": 1
+        }
+      ],
+      "wave_time": "00:50",
+      "skip_at": "00:16"
+    },
+    "17": {
+      "enemies": [
+        {
+          "type": "Mandrake",
+          "count": 2
+        },
+        {
+          "type": "Mystery",
+          "count": 4
+        },
+        {
+          "type": "Mandrake",
+          "count": 2
+        },
+        {
+          "type": "Mystery",
+          "count": 4
+        }
+      ],
+      "wave_time": "00:50",
+      "skip_at": "00:16"
+    },
+    "18": {
+      "enemies": [
+        {
+          "type": "Mystery",
+          "count": 5
+        },
+        {
+          "type": "Mandrake",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Elite Lead",
+          "count": 1
+        },
+        {
+          "type": "Lead",
+          "count": 5
+        },
+        {
+          "type": "Balloon",
+          "count": 5
+        },
+        {
+          "type": "Elite Lead",
+          "count": 1
+        },
+        {
+          "type": "Balloon",
+          "count": 5
+        }
+      ],
+      "wave_time": "00:35",
+      "skip_at": "00:11"
+    },
+    "19": {
+      "enemies": [
+        {
+          "type": "Mandrake",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Lead",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Phantom",
+          "count": 8
+        },
+        {
+          "type": "Lead",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Lead",
+          "count": 2
+        },
+        {
+          "type": "Blighted",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        }
+      ],
+      "wave_time": "01:30",
+      "skip_at": "00:30"
+    },
+    "20": {
+      "enemies": [
+        {
+          "type": "Elite Lead",
+          "count": 2
+        },
+        {
+          "type": "Elite Lead",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 5
+        }
+      ],
+      "wave_time": "00:35",
+      "skip_at": "00:11"
+    },
+    "21": {
+      "enemies": [
+        {
+          "type": "Mystery",
+          "count": 6
+        },
+        {
+          "type": "Balloon",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Voidling",
+          "count": 1
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 4
+        }
+      ],
+      "wave_time": "00:35",
+      "skip_at": "00:11"
+    },
+    "22": {
+      "enemies": [
+        {
+          "type": "Lead",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Phantom",
+          "count": 7,
+          "modifiers": [
+            "Blessed",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Lead",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Void Reaper",
+          "count": 1
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 5
+        },
+        {
+          "type": "Mystery",
+          "count": 8
+        }
+      ],
+      "wave_time": "00:45",
+      "skip_at": "00:15"
+    },
+    "23": {
+      "enemies": [
+        {
+          "type": "Cursed Skeleton",
+          "count": 5,
+          "modifiers": [
+            "Hidden"
+          ]
+        },
+        {
+          "type": "Elite Lead",
+          "count": 3
+        },
+        {
+          "type": "Elite Phantom",
+          "count": 1
+        },
+        {
+          "type": "Phantom",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        }
+      ],
+      "wave_time": "00:45",
+      "skip_at": "00:15"
+    },
+    "24": {
+      "enemies": [
+        {
+          "type": "Voidling",
+          "count": 1
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 9
+        },
+        {
+          "type": "Blighted",
+          "count": 2
+        },
+        {
+          "type": "Void Reaper",
+          "count": 1
+        }
+      ],
+      "wave_time": "00:45",
+      "skip_at": "00:15"
+    },
+    "25": {
+      "enemies": [
+        {
+          "type": "Elite Lead",
+          "count": 2
+        },
+        {
+          "type": "Elite Phantom",
+          "count": 1,
+          "modifiers": [
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Elite Lead",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Phantom",
+          "count": 1,
+          "modifiers": [
+            "Stun Immune"
+          ]
+        },
+        {
+          "type": "Elite Lead",
+          "count": 2,
+          "modifiers": [
+            "Blessed"
+          ]
+        },
+        {
+          "type": "Elite Phantom",
+          "count": 1,
+          "modifiers": [
+            "Stun Immune"
+          ]
+        }
+      ],
+      "wave_time": "00:45",
+      "skip_at": "00:15"
+    },
+    "26": {
+      "enemies": [
+        {
+          "type": "Blighted",
+          "count": 2
+        },
+        {
+          "type": "Mandragora",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 2
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 2
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        }
+      ],
+      "wave_time": "00:20",
+      "skip_at": "00:06"
+    },
+    "27": {
+      "enemies": [
+        {
+          "type": "Void Rusher",
+          "count": 7
+        }
+      ],
+      "wave_time": "00:25",
+      "skip_at": "00:08"
+    },
+    "28": {
+      "enemies": [
+        {
+          "type": "Elite Lead",
+          "count": 6,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 7
+        },
+        {
+          "type": "Void Pike",
+          "count": 3
+        }
+      ],
+      "wave_time": "00:30",
+      "skip_at": "00:10"
+    },
+    "29": {
+      "enemies": [
+        {
+          "type": "Mandragora",
+          "count": 1
+        },
+        {
+          "type": "Void Reaper",
+          "count": 2
+        },
+        {
+          "type": "Elite Phantom",
+          "count": 3
+        },
+        {
+          "type": "Void Rusher",
+          "count": 9
+        }
+      ],
+      "wave_time": "00:50",
+      "skip_at": "00:16"
+    },
+    "30": {
+      "enemies": [
+        {
+          "type": "Blighted",
+          "count": 3,
+          "modifiers": [
+            "Freeze Immune"
+          ]
+        },
+        {
+          "type": "Mandragora",
+          "count": 1
+        },
+        {
+          "type": "Void Titan",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Void Rusher",
+          "count": 6
+        },
+        {
+          "type": "Cursed Skeleton",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Balloon",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Void Reaper",
+          "count": 1
+        },
+        {
+          "type": "Balloon",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Voidling",
+          "count": 2
+        }
+      ],
+      "wave_time": "02:30",
+      "skip_at": "00:50"
+    },
+    "31": {
+      "enemies": [
+        {
+          "type": "Blighted",
+          "count": 3
+        },
+        {
+          "type": "Voidling",
+          "count": 4
+        },
+        {
+          "type": "Elite Phantom",
+          "count": 4
+        },
+        {
+          "type": "Void Floater",
+          "count": 6
+        }
+      ],
+      "wave_time": "01:00",
+      "skip_at": "00:20"
+    },
+    "32": {
+      "enemies": [
+        {
+          "type": "Void Pike",
+          "count": 4
+        },
+        {
+          "type": "Elite Phantom",
+          "count": 2,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Elite Mystery",
+          "count": 7
+        },
+        {
+          "type": "Elite Phantom",
+          "count": 1,
+          "modifiers": [
+            "Nimble",
+            "Bloated"
+          ]
+        }
+      ],
+      "wave_time": "01:00",
+      "skip_at": "00:20"
+    },
+    "33": {
+      "enemies": [
+        {
+          "type": "Void Pike",
+          "count": 4,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Voidling",
+          "count": 2
+        },
+        {
+          "type": "Voidling",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Voidling",
+          "count": 2
+        },
+        {
+          "type": "Elite Mystery",
+          "count": 8
+        },
+        {
+          "type": "Blighted",
+          "count": 4
+        },
+        {
+          "type": "Mandragora",
+          "count": 1
+        },
+        {
+          "type": "Void Brute",
+          "count": 1
+        },
+        {
+          "type": "Void Titan",
+          "count": 1
+        },
+        {
+          "type": "Void Rusher",
+          "count": 9
+        },
+        {
+          "type": "Void Floater",
+          "count": 5
+        }
+      ],
+      "wave_time": "04:00",
+      "skip_at": "01:20"
+    },
+    "34": {
+      "enemies": [
+        {
+          "type": "Void Floater",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Void Floater",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Void Floater",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Void Floater",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Void Floater",
+          "count": 1,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Void Floater",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Mandragora",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Unknown Small",
+          "count": 4
+        },
+        {
+          "type": "Mandragora",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 5
+        }
+      ],
+      "wave_time": "00:50",
+      "skip_at": "00:16"
+    },
+    "35": {
+      "enemies": [
+        {
+          "type": "Mandragora",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Nightshade",
+          "count": 2
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 1
+        },
+        {
+          "type": "Void Pike",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Elite Mystery",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 1
+        },
+        {
+          "type": "Void Pike",
+          "count": 3,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ],
+      "wave_time": "01:00",
+      "skip_at": "00:20"
+    },
+    "36": {
+      "enemies": [
+        {
+          "type": "Nightshade",
+          "count": 1
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Mystery",
+          "count": 4
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Blighted",
+          "count": 3,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Mandragora",
+          "count": 2,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Void Keeper",
+          "count": 1
+        },
+        {
+          "type": "Void Reaper",
+          "count": 3,
+          "modifiers": [
+            "Health Regen"
+          ]
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 1
+        },
+        {
+          "type": "Void Rusher",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 1
+        },
+        {
+          "type": "Void Rusher",
+          "count": 4,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 1
+        },
+        {
+          "type": "Unknown Small",
+          "count": 4
+        },
+        {
+          "type": "Void Floater",
+          "count": 5
+        }
+      ],
+      "wave_time": "03:00",
+      "skip_at": "01:00"
+    },
+    "37": {
+      "enemies": [
+        {
+          "type": "Soul",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Slow King",
+          "count": 3
+        },
+        {
+          "type": "Void Pike",
+          "count": 6,
+          "modifiers": [
+            "Bloated",
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Void Titan",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Soul",
+          "count": 5,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Unknown Small",
+          "count": 4
+        }
+      ],
+      "wave_time": "01:00",
+      "skip_at": "00:20"
+    },
+    "38": {
+      "enemies": [
+        {
+          "type": "Slow King",
+          "count": 2
+        },
+        {
+          "type": "Void Titan",
+          "count": 3,
+          "modifiers": [
+            "Freeze Immune",
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Void Cultist",
+          "count": 1
+        },
+        {
+          "type": "Elite Mystery",
+          "count": 3,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Void Floater",
+          "count": 5,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Elite Mystery",
+          "count": 3,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Void Floater",
+          "count": 5,
+          "modifiers": [
+            "Nimble"
+          ]
+        }
+      ],
+      "wave_time": "01:30",
+      "skip_at": "00:30"
+    },
+    "39": {
+      "enemies": [
+        {
+          "type": "Soul",
+          "count": 8,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Slow King",
+          "count": 4
+        },
+        {
+          "type": "Speedy King",
+          "count": 3
+        },
+        {
+          "type": "Nightshade",
+          "count": 4
+        },
+        {
+          "type": "Unknown Small",
+          "count": 5
+        }
+      ],
+      "wave_time": "01:00",
+      "skip_at": "00:20"
+    },
+    "40": {
+      "enemies": [
+        {
+          "type": "Soul",
+          "count": 7,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Nightshade",
+          "count": 5
+        },
+        {
+          "type": "Slow King",
+          "count": 4
+        },
+        {
+          "type": "Vindicator",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        },
+        {
+          "type": "Elite Mystery",
+          "count": 5,
+          "modifiers": [
+            "Aggro"
+          ]
+        },
+        {
+          "type": "Unknown Small",
+          "count": 6
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 4
+        },
+        {
+          "type": "Void Pike",
+          "count": 5
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 4
+        },
+        {
+          "type": "Void Pike",
+          "count": 5
+        },
+        {
+          "type": "Speedy King",
+          "count": 3
+        }
+      ],
+      "wave_time": "04:00",
+      "skip_at": "01:20"
+    },
+    "41": {
+      "enemies": [
+        {
+          "type": "Soul",
+          "count": 6,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Soul",
+          "count": 4
+        },
+        {
+          "type": "Void Titan",
+          "count": 1,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Unknown Boss",
+          "count": 3
+        },
+        {
+          "type": "Speedy King",
+          "count": 3
+        },
+        {
+          "type": "Void Cultist",
+          "count": 1
+        },
+        {
+          "type": "Heavy Voidling",
+          "count": 1
+        }
+      ],
+      "wave_time": "01:30",
+      "skip_at": "00:30"
+    },
+    "42": {
+      "enemies": [
+        {
+          "type": "Slow King",
+          "count": 6,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Void Titan",
+          "count": 2
+        },
+        {
+          "type": "Void Knight",
+          "count": 1
+        },
+        {
+          "type": "Void Trickster",
+          "count": 1
+        },
+        {
+          "type": "Speedy King",
+          "count": 4
+        },
+        {
+          "type": "Soul",
+          "count": 8,
+          "modifiers": [
+            "Bloated",
+            "Blessed"
+          ]
+        }
+      ],
+      "wave_time": "02:00",
+      "skip_at": "00:40"
+    },
+    "43": {
+      "enemies": [
+        {
+          "type": "Heavy Voidling",
+          "count": 1
+        },
+        {
+          "type": "Elite Soul",
+          "count": 3
+        },
+        {
+          "type": "Slow King",
+          "count": 4
+        },
+        {
+          "type": "Void Knight",
+          "count": 2
+        },
+        {
+          "type": "Vindicator",
+          "count": 1
+        },
+        {
+          "type": "Void Swordmaster",
+          "count": 1
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 6
+        },
+        {
+          "type": "Void Cultist",
+          "count": 2
+        }
+      ]
+    },
+    "44": {
+      "enemies": [
+        {
+          "type": "Slow King",
+          "count": 3,
+          "modifiers": [
+            "Bloated",
+            "Blessed"
+          ]
+        },
+        {
+          "type": "Void Knight",
+          "count": 1
+        },
+        {
+          "type": "Void Guardian",
+          "count": 1
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 6
+        },
+        {
+          "type": "Elite Soul",
+          "count": 5
+        },
+        {
+          "type": "Elite Void Rusher",
+          "count": 6
+        },
+        {
+          "type": "Void Trickster",
+          "count": 1
+        },
+        {
+          "type": "Unknown Boss",
+          "count": 2
+        },
+        {
+          "type": "Void Trickster",
+          "count": 1
+        },
+        {
+          "type": "Unknown Boss",
+          "count": 2
+        }
+      ],
+      "wave_time": "03:00",
+      "skip_at": "01:00"
+    },
+    "45": {
+      "enemies": [
+        {
+          "type": "Heavy Voidling",
+          "count": 1,
+          "modifiers": [
+            "Bloated"
+          ]
+        },
+        {
+          "type": "Elite Soul",
+          "count": 5
+        },
+        {
+          "type": "Slow King",
+          "count": 10
+        },
+        {
+          "type": "Vindicator",
+          "count": 1
+        },
+        {
+          "type": "Speedy King",
+          "count": 5
+        },
+        {
+          "type": "Nightshade",
+          "count": 6,
+          "modifiers": [
+            "Nimble"
+          ]
+        },
+        {
+          "type": "Heavy Voidling",
+          "count": 2
+        },
+        {
+          "type": "Unknown Boss",
+          "count": 4
+        },
+        {
+          "type": "Speedy King",
+          "count": 5
+        },
+        {
+          "type": "Void Titan",
+          "count": 4
+        },
+        {
+          "type": "Void Knight",
+          "count": 3
+        },
+        {
+          "type": "Void Guardian",
+          "count": 1
+        },
+        {
+          "type": "Void Reaver",
+          "count": 1,
+          "modifiers": [
+            "Boss"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "source": "TDS Wiki + mode enemy_traits",
+    "note": "HP может отличаться по режиму и модификаторам"
+  },
+  "defense_labels": {
+    "lead": "Lead",
+    "hidden": "Hidden",
+    "flying": "Flying",
+    "ghost": "Ghost",
+    "armored": "Armored"
+  },
+  "enemies": {
+    "Abnormal": {
+      "hp": 6
+    },
+    "Armored": {
+      "hp": 80,
+      "defenses": [
+        "armored"
+      ]
+    },
+    "Balloon": {
+      "hp": 25,
+      "defenses": [
+        "flying"
+      ]
+    },
+    "Blighted": {
+      "hp": 1600
+    },
+    "Bolt": {
+      "hp": 65
+    },
+    "Boomer": {
+      "hp": 3000
+    },
+    "Breaker2": {
+      "hp": 50
+    },
+    "Breaker3": {
+      "hp": 80
+    },
+    "Breaker4": {
+      "hp": 120
+    },
+    "Brute": {
+      "hp": 400
+    },
+    "Cold Mist": {
+      "hp": 30,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Corrupted Fallen": {
+      "hp": 250,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Crying Angel": {
+      "hp": 500,
+      "defenses": [
+        "flying"
+      ]
+    },
+    "Deep Freeze": {
+      "hp": 2000,
+      "defenses": [
+        "lead"
+      ]
+    },
+    "Elite Lead": {
+      "hp": 120,
+      "defenses": [
+        "lead"
+      ]
+    },
+    "Elite Phantom": {
+      "hp": 80,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Elite Soul": {
+      "hp": 900,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Enraged": {
+      "hp": 100
+    },
+    "Fallen": {
+      "hp": 180
+    },
+    "Fallen Angel": {
+      "defenses": [
+        "flying"
+      ]
+    },
+    "Fallen Guardian": {
+      "hp": 14000
+    },
+    "Fallen Hero": {
+      "hp": 5000
+    },
+    "Fallen King": {
+      "hp": 150000
+    },
+    "Fallen Rusher": {
+      "hp": 150
+    },
+    "Fallen Seraph": {
+      "defenses": [
+        "flying"
+      ]
+    },
+    "Fallen Soul": {
+      "hp": 60,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Fallen Summoner": {
+      "hp": 400,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Frost Hero": {
+      "defenses": [
+        "flying"
+      ]
+    },
+    "Frost Invader": {
+      "hp": 3000
+    },
+    "Frost Mage": {
+      "defenses": [
+        "flying"
+      ]
+    },
+    "Frost Mystery": {
+      "hp": 50
+    },
+    "Frost Necromancer": {
+      "hp": 35000
+    },
+    "Frost Ravager": {
+      "hp": 35000
+    },
+    "Frost Spirit": {
+      "hp": 1000000,
+      "defenses": [
+        "flying"
+      ]
+    },
+    "Frost Wraith": {
+      "hp": 100,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Frostmite": {
+      "hp": 40
+    },
+    "Frozen": {
+      "hp": 25
+    },
+    "Ghoul": {
+      "hp": 200,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Giant Boss": {
+      "hp": 2000
+    },
+    "Grave Digger": {
+      "hp": 40000
+    },
+    "Hazmat": {
+      "hp": 100
+    },
+    "Heavy": {
+      "hp": 16
+    },
+    "Hefty": {
+      "hp": 20
+    },
+    "Hidden": {
+      "hp": 10,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Hidden Boss": {
+      "hp": 450,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Lead": {
+      "hp": 30,
+      "defenses": [
+        "lead"
+      ]
+    },
+    "Mandrake": {
+      "hp": 40
+    },
+    "Molten": {
+      "hp": 100
+    },
+    "Molten Demon": {
+      "hp": 120,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Molten Titan": {
+      "hp": 3500
+    },
+    "Mystery": {
+      "hp": 10
+    },
+    "Necromancer": {
+      "hp": 250
+    },
+    "Normal": {
+      "hp": 4
+    },
+    "Normal Boss": {
+      "hp": 160
+    },
+    "Odd": {
+      "hp": 15
+    },
+    "Packed Ice": {
+      "hp": 250
+    },
+    "Permafrost": {
+      "hp": 150
+    },
+    "Phantom": {
+      "hp": 35,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Possessed Armor": {
+      "hp": 90,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Quick": {
+      "hp": 4
+    },
+    "Reaver": {
+      "hp": 120,
+      "defenses": [
+        "armored"
+      ]
+    },
+    "Skeleton": {
+      "hp": 50
+    },
+    "Slime": {
+      "hp": 1200
+    },
+    "Slow": {
+      "hp": 8
+    },
+    "Slow Boss": {
+      "hp": 1600
+    },
+    "Slow King": {
+      "hp": 8000
+    },
+    "Snow Minion": {
+      "hp": 250
+    },
+    "Snowy": {
+      "hp": 20
+    },
+    "Soul": {
+      "hp": 800,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Speedy": {
+      "hp": 3
+    },
+    "Speedy Boss": {
+      "hp": 1800
+    },
+    "Speedy King": {
+      "hp": 6000
+    },
+    "Swift": {
+      "hp": 12
+    },
+    "Trickster Elf": {
+      "hp": 150,
+      "defenses": [
+        "hidden"
+      ]
+    },
+    "Unstable Ice": {
+      "hp": 200
+    },
+    "Vindicator": {
+      "hp": 45000
+    },
+    "Void Floater": {
+      "hp": 100,
+      "defenses": [
+        "flying"
+      ]
+    },
+    "Void Pike": {
+      "hp": 70,
+      "defenses": [
+        "lead"
+      ]
+    },
+    "Void Reaver": {
+      "hp": 1200000
+    },
+    "Voidling": {
+      "hp": 50
+    },
+    "Yeti": {
+      "hp": 4000
+    }
+  }
+}

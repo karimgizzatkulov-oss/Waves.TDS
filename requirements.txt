@@ -1,0 +1,6 @@
+mss
+easyocr
+opencv-python
+numpy
+Pillow
+keyboard
